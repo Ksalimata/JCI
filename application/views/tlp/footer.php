@@ -55,7 +55,7 @@
     </footer>
     <div class="copy">
             <div class="container">
-                <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
+                <a href="https://www.smarteyeapps.com/">2022 &copy; All Rights Reserved | JCI Abidjan Ivoire</a>
                 
                 <span>
                 <a><i class="fab fa-github"></i></a>
@@ -67,3 +67,12 @@
             </div>
 
     </div>
+
+    <style type="text/css">
+        .footer {
+            padding: 50px;
+            padding-bottom: 50px;
+            background-color: #359dda;
+            color: #FFF;
+        }
+    </style>

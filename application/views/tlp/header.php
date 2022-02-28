@@ -43,7 +43,7 @@
             <div class="row nav-row">
                 <div class="col-lg-3 col-md-12 logo">
                     <a href="index.html">
-                        <img src="assets/images/logo.jpg" alt="">
+                        <img src="assets/images/logo.png" alt="" style="height: 63px;">
                         <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                     </a>
 
@@ -52,35 +52,35 @@
 
                             <ul class="navbad">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home
+                                    <a class="nav-link" href="index.html">Accueil
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                    <a class="nav-link" href="about_us.html">Commissions</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="services.html">Services</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <a class="nav-link" href="services.html">Archives</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
+                                    <a class="nav-link" href="gallery.html">Evenements</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Annuaire</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact_us.html">Contact US</a>
+                                    <a class="nav-link" href="contact_us.html">A propos</a>
                                 </li>
-
-
-
-
                             </ul>
-
 
                 </div>
             </div>
         </div>
     </div> 
 </header>
+<style type="text/css">
+    header .nav-col .navbad li a:hover {
+          background-color: #359dda;
+          color: #fff !important; }
+</style>
