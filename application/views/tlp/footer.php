@@ -2,24 +2,58 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
+                    <h2>Qui sommes-nous ?</h2>
                     <p>
-                        Smart Eye is a leading provider of information technology, consulting, and business process services. Our dedicated employees offer strategic insights, technological expertise and industry experience.
+                        Nous sommes de jeunes citoyens actifs du monde en général et de la Côte d’Ivoire en particulier. Vivant, communiquant, agissant et créant un impact dans nos communautés, nous sommes des Elites. Vous êtes un jeune citoyen actif ? Voulez-vous faire la différence dans votre communauté ? Rejoignez-nous dans ce voyage d’action locale pour un impact mondial.
                     </p>
-                    <p>We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
+                    
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
-                    <ul class="list-unstyled link-list">
-                        <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
-                    </ul>
+                    <h2>Evènements récents</h2>
+                    <div class="blog-row row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-blog">
+                            <figure>
+                                <img src="<?=base_url(); ?>assets/images/events/image_01.jpg" alt="">
+                            </figure>
+                            <div class="blog-detail">
+                                <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-blog">
+                            <figure>
+                                <img src="<?=base_url(); ?>assets/images/events/image_02.jpg" alt="">
+                            </figure>
+                            <div class="blog-detail">
+                                <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-blog">
+                            <figure>
+                                <img src="<?=base_url(); ?>assets/images/events/image_03.jpg" alt="">
+                            </figure>
+                            <div class="blog-detail">
+                                <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-12 map-img">
-                    <h2>Contact Us</h2>
+                </div>
+                <div class="col-md-4 col-sm-12 map-img" style="padding-left: 83px;">
+                    <h2>Contactez Nous</h2>
                     <address class="md-margin-bottom-40">
                         BlueDart <br>
                         Marthandam (K.K District) <br>
@@ -28,8 +62,10 @@
                         Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
                         Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
                     </address>
-
+                    <div class="donate-link col-md-3"><a href="Accueil/contact" class="btn btn-primary "><span class="btn-title">Rejoignez-nous !</span></a></div>
                 </div>
+
+            </div>
             </div>
         </div>
         
@@ -46,7 +82,7 @@
                 <a><i class="fab fa-twitter"></i></a>
                 <a><i class="fab fa-facebook-f"></i></a>
         </span>
-            </div>
+
 
     </div>
 
