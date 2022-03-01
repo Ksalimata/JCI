@@ -6,17 +6,17 @@
                     <ul class="ulleft">
                         <li>
                             <i class="far fa-envelope"></i>
-                            sales@smarteyeapps.com
+                            jciabidjanivoire.sg@gmail.com
                             <span>|</span></li>
                         <li>
                             <i class="fas fa-phone-volume"></i>
-                            +876 987 666 5433</li>
+                            +225 07 07 78 08 87 </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 folouws">
                   
                     <ul class="ulright">
-                       <li> <small>Folow Us </small>:</li>
+                       <li> <small>Suivez nous</small>:</li>
                         <li>
                             <i class="fab fa-facebook-square"></i>
                         </li>
@@ -32,7 +32,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
-                    <button class="btn btn-sm btn-success">Join Us</button>
+                    <button class="btn btn-sm btn-primary"><a href="<?php echo site_url('Accueil/contact');?>">Rejoignez-nous !</a></button>
                     <!-- <button class="btn btn-sm btn-default">Donate</button> -->
                 </div>
             </div>
@@ -43,7 +43,7 @@
             <div class="row nav-row">
                 <div class="col-lg-3 col-md-12 logo">
                     <a href="index.html">
-                        <img src="<?=base_url(); ?>assets/images/logo.png" alt="" style="height: 63px;">
+                        <img src="<?=base_url(); ?>assets/images/logo.png" alt="" style="height: 65px;">
                         <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                     </a>
 
@@ -56,14 +56,16 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <!-- <a class="nav-link" href="<?php //echo site_url('Accueil/commission');?>">Commissions</a> -->
+                                    <a class="nav-link" href="<?php echo site_url('Accueil/commission');?>">Commissions</a> 
+                                </li>    
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">Commissions</a>
                                       <div class="dropdown-content">
-                                        <a style="border-radius: 2px;" href="<?php echo site_url('Accueil/communo');?>">Actions Communautaires et entrepreneuriales</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Accueil/formation');?>">Formations et Développement</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Accueil/loisirs');?>">Cultures, Loisirs et Anglais</a>
+                                        <a style="border-radius: 2px;" href="<?php //echo site_url('Accueil/communo');?>">Actions Communautaires et entrepreneuriales</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php //echo site_url('Accueil/formation');?>">Formations et Développement</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php //echo site_url('Accueil/loisirs');?>">Cultures, Loisirs et Anglais</a>
                                       </div>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/archive');?>">Archives</a>
                                 </li>

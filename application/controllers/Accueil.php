@@ -9,6 +9,8 @@ class Accueil extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->library('email');
+    	$this->load->library(array('form_validation', 'mailjet'));
 		
 	}
 
@@ -21,7 +23,7 @@ class Accueil extends CI_Controller {
 	public function commission()
 	{
 
-		$this->load->view('commun/accueil');
+		$this->load->view('commun/commission');
 	}
 
 	public function archive()
@@ -62,6 +64,40 @@ class Accueil extends CI_Controller {
 
 		$this->load->view('commun/loisirs');
 	}
+	public function contact()
+	{
+
+		$this->load->view('commun/contact');
+	}
+
+	public function sendEmail()
+	{
+		//get the form data
+        $name = $this->input->post('name');
+        $email = $this->input->post('email');
+        $subject = $this->input->post('phone');
+        $message = $this->input->post('message');
+
+        //Web master email
+        $to_email = 'salimata.kone277@gmail.com'; //Webmaster email, who receive mails
+
+        $mailto = $this->mailjet->emailing($to_email, $subject, $message,$email);
+        //var_dump($mailto);
+        //exit();
+	    if ($mailto) 
+	    {
+	        // mail sent
+	        $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Votre mail à été envoyer avec success!</div>');
+	        redirect('Accueil/contact');
+	    }
+	    else
+	    {
+	        //error
+	        $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Erreur lors de l\'envoie du mail, Reessayer SVP</div>');
+	        redirect('Accueil/contact');
+
+		}
+	}	
 
 }
 ?>

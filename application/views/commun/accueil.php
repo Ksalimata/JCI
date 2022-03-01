@@ -12,45 +12,36 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="assets/images/slider/slider-3.jpg" alt=""></div>
+                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-3.jpg" alt=""></div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                            
                                 <div class="animated bounceInDown slider-captions">
-                                    <h1 class="slider-title">Most Stylish Free Travel Website</h1>
-                                    <p class="slider-text hidden-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                                    
+                                    <h1 class="slider-title">Be Better</h1>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="assets/images/slider/slider-1.jpg" alt=""></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-1.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-                            <div class="slider-captions ">
-                                <h1 class="slider-title">It's time for better help.</h1>
-                                <p class="slider-text hidden-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                                
-                            </div>
-                        </div>
+                            
+                                <div class="animated bounceInDown slider-captions">
+                                    <h1 class="slider-title">Be Better</h1>
+                                </div>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="assets/images/slider/slider-2.jpg" alt=""></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-2.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-                            <div class="slider-captions ">
-                                <h1 class="slider-title">Most Attractive Travel Template</h1>
-                                <p class="slider-text hidden-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                               
-                            </div>
-                        </div>
+                            
+                                <div class="animated bounceInDown slider-captions">
+                                    <h1 class="slider-title">Be Better</h1>
+                                </div>
                     </div>
                 </div>
             </div>
@@ -64,53 +55,16 @@
 	    <div class="container">
 
 	        <div class="row natur-row no-margin w-100">
+	        	<div class="image-part col-md-6">
+		            <img src="<?=base_url(); ?>assets/images/president.jpg" alt="" style="width: 467px;height: 483px;">
+		            
+	            </div>
 	            <div class="text-part col-md-6">
-	                <h2>About Our Charity</h2>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius faucibus
-	                    ligula non congue. Suspendisse at pretium massa, sit amet
-	                    vulputate nibh. Nam posuere eros dolor. Donec vel arcu sagittis, pretium nisl </p>
-	                <p> Cras faucibus laoreet nibh, sit amet tincidunt leo mollis in. Etiam eu mauris metus.
-	                    Nulla facilisi. Etiam vestibulum,
-	                    nisi et convallis elementum, leo orci aliquam metus, id posuere massa neque vitae
-	                    arcu.</p>
+	                <h2>Mot de Bienvenue</h2>
+	                <p>Vous souhaitez prononcer un discours de remerciements mais vous ne savez pas exactement comment les exprimer pour être agréable et surtout non répétitif ! Il n'y a pas plus rébarbatif que ces interventions qui font défiler les mercis à la suite sans originalité et avec la même phrase redite à volonté. Vous ne souhaitez pas faire le énième discours de remerciements du festival de Cannes ? Alors, on vous explique comment captiver votre auditoire tout en atteignant votre objectif. </p>
+	                <p> Vous souhaitez prononcer un discours de remerciements mais vous ne savez pas exactement comment les exprimer pour être agréable et surtout non répétitif ! Il n'y a pas plus rébarbatif que ces interventions qui font défiler les mercis à la suite sans originalité et avec la même phrase redite à volonté. Vous ne souhaitez pas faire le énième discours de remerciements du festival de Cannes ? Alors, on vous explique comment captiver votre auditoire tout en atteignant votre objectif.</p>	                
+	            </div>
 
-	                <p>Integer vulputate vehicula dolor a eleifend. Duis aliquam condimentum sapien,
-	                    eget tempor justo. Aenean porttitor nibh metus, sollicitudin egestas metus posuere et
-	                    . Fusce egestas volutpat metus, in sodales sem bibendum porta. Nunc hendrerit nunc sit
-	                    amet tellus posuere, at malesuada sem gravida. Integer maximus ultricies augue, at
-	                    dapibus elit bibendum consequat. Cras faucibus tellus eleifend, fermentum purus in,
-	                    dapibus sapien. Praesent nec ornare risus. Etiam iaculis, ligula vel gravida
-	                    vestibulum, urna justo posuere ante,
-	                    id pretium massa arcu sed mi. Nunc a sollicitudin sem. Duis tempus </p>
-	            </div>
-	            <div class="image-part col-md-6">
-	                <div class="about-quick-box row">
-	                    <div class="col-md-6">
-	                        <div class="about-qcard">
-	                           <i class="fas fa-user"></i>
-	                            <p>Becom a Volunteer</p>
-	                        </div>
-	                    </div>
-	                     <div class="col-md-6">
-	                        <div class="about-qcard ">
-	                           <i class="fas fa-search-dollar red"></i>
-	                            <p>Quick Fundrais</p>
-	                        </div>
-	                    </div>
-	                     <div class="col-md-6">
-	                        <div class="about-qcard ">
-	                           <i class="fas fa-donate yell"></i>
-	                            <p>Giv Donation</p>
-	                        </div>
-	                    </div>
-	                     <div class="col-md-6">
-	                        <div class="about-qcard ">
-	                           <i class="fas fa-hands-helping blu"></i>
-	                            <p>Help Someone</p>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
 	        </div>
 	    </div>
 	</div>     
@@ -121,27 +75,163 @@
       <div class="container">
           <div class="row mission">
               <div class="col-md-6 mv-det">
-                  <h1>Our Mission</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer neque libero, pulvinar et elementum quis, facilisis eu ante. Mauris non placerat sapien. Pellentesque tempor arcu non odio scelerisque ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.</p>
+                  <!-- <h1>Notre Mission</h1> -->
+                  <h4 style="font-weight:bold;"> << Offrir aux jeunes gens des opportunités de développement qui leur permettront de créer des changements positifs >> </h4>
               </div>
               <div class="col-md-6 mv-img">
-                  <img src="assets/images/misin.jpg" alt="">
+                  <img src="<?=base_url(); ?>assets/images/mission.png" alt="" style="margin-left: 17%;">
               </div>
           </div>
           <div class="row vision">
               <div class="col-md-6 mv-img">
-                   <img src="assets/images/vision.jpg" alt="">
+                   <img src="<?=base_url(); ?>assets/images/vision.png" alt="">
               </div>
               <div class="col-md-6 mv-det">
-                   <h1>Our Vision</h1>
-                   <p>Ut ultricies lacus a rutrum mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed porta dolor quis felis pulvinar dignissim. Etiam nisl ligula, ullamcorper non metus vitae, maximus efficitur mi. Vivamus ut ex ullamcorper, scelerisque lacus nec, commodo dui. Proin massa urna, volutpat vel augue eget, iaculis tristique dui.</p>
+                   <!-- <h1>Notre Vision</h1> -->
+                   <h4 style="font-weight:bold;"><< Être le principal réseau mondial de Jeunes Citoyens Actifs>> </h4>
               </div>
           </div>
       </div>
-   </section>   
-   
+   </section> 
+   <!-- <section class="our-blog">
+   		<div class="container">
+         		
+        		<div class="blog-row row">
+        			<div class="col-md-12 col-sm-6">
+        				<div class="single-blog">
+        					
+        					<div class="blog-detail">
+        						<center><h2>Notre Mission</h2></center>
+								<center>
+									<h4> Offrir aux jeunes gens des opportunités de développement qui leur permettront de créer des changements positifs </h4>
+								</center>
+								
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="blog-row row">
+        			<div class="col-md-12 col-sm-6">
+        				<div class="single-blog">
+        					
+        					<div class="blog-detail">
+        						<center><h2>Notre Vision</h2></center>
+								<center>
+									<h4> Être le principal réseau mondial de Jeunes Citoyens Actifs </h4>
+								</center>
+								
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        </div>				
+   </section>  --> 
+    <section class="our-blog" style="background-color: #edf1f5;">
+         	<div class="container">
+         		<div class="row session-title">
+        			<h2> Nos Actions </h2>
+        			<!-- <p>Take a look at what people say about US </p> -->
+        		</div>
+        		<div class="blog-row row">
+        			<div class="col-md-4 col-sm-6">
+        				<div class="single-blog">
+        					<figure>
+        						<img src="<?=base_url(); ?>assets/images/events/image_01.jpg" alt="">
+        					</figure>
+        					<div class="blog-detail">
+        							<h5>
+										<center><a href="<?php echo site_url('Accueil/communo');?>">Actions Communautaires et Entrepreneuriat</a></center>
+									</h5>
+        					</div>
+        					
+        					
+        				</div>
+        			</div>
+        			<div class="col-md-4 col-sm-6">
+        				<div class="single-blog">
+        					<figure>
+        						<img src="<?=base_url(); ?>assets/images/events/image_02.jpg" alt="">
+        					</figure>
+        					<div class="blog-detail">
+        						
+									<h4>
+										<center><a href="<?php echo site_url('Accueil/formation');?>">Formations et Dévéloppement</a></center>
+									</h4>
+								
+        					</div>
+        					
+        					
+        				</div>
+        			</div>
+        			<div class="col-md-4 col-sm-6">
+        				<div class="single-blog">
+        					<figure>
+        						<img src="<?=base_url(); ?>assets/images/events/image_03.jpg" alt="">
+        					</figure>
+        					<div class="blog-detail">
+        						
+									<h4>
+										<center><a href="<?php echo site_url('Accueil/loisirs');?>">Cultures, Loisirs et Anglais</a></center>
+									</h4>
+        					</div>
+        					
+        					
+        				</div>
+        			</div>
+        		</div>
+         	</div>
+    </section>
 
-<h1>Bonjour</h1>
+    <!--################### Our Team Starts Here #######################--->
+        <section class="our-team team-11">
+            <div class="container">
+                <div class="session-title row">
+                      <h2>Nos Partenaires</h2>
+                      
+                </div>
+                <div class="row team-row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-usr">
+                            <img src="<?=base_url(); ?>assets/images/team/team-memb1.jpg" alt="">
+                            <div class="det-o">
+                                <h4>David Kanuel</h4>
+                                <i>CEO </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-usr">
+                            <img src="<?=base_url(); ?>assets/images/team/team-memb2.jpg" alt="">
+                            <div class="det-o">
+                                <h4>David Kanuel</h4>
+                                <i>CFO</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-usr">
+                            <img src="<?=base_url(); ?>assets/images/team/team-memb3.jpg" alt="">
+                            <div class="det-o">
+                                <h4>David Kanuel</h4>
+                                <i>Team Leader</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-usr">
+                            <img src="<?=base_url(); ?>assets/images/team/team-memb4.jpg" alt="">
+                            <div class="det-o">
+                                <h4>David Kanuel</h4>
+                                <i>Project Manager</i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
 </body>

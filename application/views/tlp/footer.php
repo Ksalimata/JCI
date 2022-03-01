@@ -31,31 +31,13 @@
 
                 </div>
             </div>
-            
-            
-            <div class="nav-box row clearfix">
-                <div class="inner col-md-9 clearfix">
-                    <ul class="footer-nav clearfix">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Servies</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-
-                  
-                </div>
-                  <div class="donate-link col-md-3"><a href="donate.html" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
-            </div>
-            
         </div>
         
 
     </footer>
     <div class="copy">
             <div class="container">
-                <a href="https://www.smarteyeapps.com/">2022 &copy; All Rights Reserved | JCI Abidjan Ivoire</a>
+                <a href="https://www.smarteyeapps.com/">2022 &copy; Tous droits réservés | JCI Abidjan Ivoire</a>
                 
                 <span>
                 <a><i class="fab fa-github"></i></a>
