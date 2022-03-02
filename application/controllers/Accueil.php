@@ -19,6 +19,17 @@ class Accueil extends CI_Controller {
 
 		$this->load->view('commun/accueil');
 	}
+	public function add_new()
+	{
+            $email = $this->input->post("email");
+            
+			$this->db->set('email', $email)
+						->insert('ci_newsletter');
+	 	    $insert =$this->db->insert_id();
+
+            //$insert = $this->db->insert_id();
+            redirect('Accueil');
+    }
 
 	public function commission()
 	{

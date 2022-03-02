@@ -32,7 +32,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
-                    <button class="btn btn-sm btn-primary"><a href="<?php echo site_url('Accueil/contact');?>">Rejoignez-nous !</a></button>
+                    <button class="btn btn-sm btn-primary" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/contact');?>">Rejoignez-nous !</a></button>
                     <!-- <button class="btn btn-sm btn-default">Donate</button> -->
                 </div>
             </div>
@@ -119,6 +119,11 @@
 
     .nav-item:hover .dropdown-content {display: block;}
 
-    .dropdown:hover .nav-link {background-color: #3e8e41;}   
+    .dropdown:hover .nav-link {background-color: #3e8e41;}
+
+    .nav-item a.active {
+    background-color: #04AA6D!important;
+    color: #ffffff;
+}   
     
 </style>

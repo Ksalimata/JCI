@@ -2,6 +2,44 @@
 <html lang="fr">
 <head>
 	<?php $this->load->view('tlp/css_file'); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js"></script>
+    <style type="text/css">
+        .new
+        {
+            float: left;
+            width: 299px;
+            margin-right: 0px !important;
+            margin-left: 30px !important;
+            color: #a0a1a3;
+            font-size: 19px;
+            padding: 3px;
+            padding-left: 29px;
+            height: 44px;
+            border: 1px solid;
+        }
+        .ne{
+            float: left;
+            font-size: 29.09px;
+            padding-left: 56px;
+            padding-right: 4px;
+            color: #575759;
+            font-family: "Opificio-Regular";
+            margin-top: 7px;
+            font-weight: 600;
+        }
+        .pe{
+            background-color: #3597dc;
+            border: 1px solid #359dda;
+            margin-right: 42px;
+            margin-left: 31px;
+            margin-top: -3px;
+            color: white;
+            width: 192px;
+            padding: 3px;
+            font-size: 25px;
+            font-family: "Opificio-Regular";
+        }
+    </style>
 </head>
 <body>
 	<?php $this->load->view('tlp/header'); ?>
@@ -48,7 +86,32 @@
 
         </div>
     </div> 
+    
+    <div class="modal fade" id="modal-content" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: #000;font-size: 30px;margin: 0;font-weight: bold;">Abonnez-vous à notre newsletter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input placeholder="Entrez votre adresse Email" class="form-control" id="yurEmail" name="email" type="email" value="">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default close2" data-dismiss="modal">Fermer</button>
+                    <button id="newsletter" type="submit" class="btn btn-danger subscribed">Abonnez-vous</button>
+                </div>
 
+            </div>
+        </div>
+    </div>
+   
     <!--  ************************* About Us Starts Here ************************** -->    
        
 	<div class="about-us container-fluid">
@@ -183,56 +246,128 @@
     </section>
 
     <!--################### Our Team Starts Here #######################--->
-        <section class="our-team team-11">
-            <div class="container">
-                <div class="session-title row">
-                      <h2>Nos Partenaires</h2>
-                      
-                </div>
-                <div class="row team-row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="single-usr">
-                            <img src="<?=base_url(); ?>assets/images/team/team-memb1.jpg" alt="">
-                            <div class="det-o">
-                                <h4>David Kanuel</h4>
-                                <i>CEO </i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="single-usr">
-                            <img src="<?=base_url(); ?>assets/images/team/team-memb2.jpg" alt="">
-                            <div class="det-o">
-                                <h4>David Kanuel</h4>
-                                <i>CFO</i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="single-usr">
-                            <img src="<?=base_url(); ?>assets/images/team/team-memb3.jpg" alt="">
-                            <div class="det-o">
-                                <h4>David Kanuel</h4>
-                                <i>Team Leader</i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="single-usr">
-                            <img src="<?=base_url(); ?>assets/images/team/team-memb4.jpg" alt="">
-                            <div class="det-o">
-                                <h4>David Kanuel</h4>
-                                <i>Project Manager</i>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
+    <section class="our-team team-11">
+        <div class="container">
+            <div class="session-title row">
+                  <h2>Nos Partenaires</h2>
+                  
             </div>
-        </section>
+            <div class="row team-row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="<?=base_url(); ?>assets/images/team/team-memb1.jpg" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>CEO </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="<?=base_url(); ?>assets/images/team/team-memb2.jpg" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>CFO</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="<?=base_url(); ?>assets/images/team/team-memb3.jpg" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>Team Leader</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="<?=base_url(); ?>assets/images/team/team-memb4.jpg" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>Project Manager</i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="our-blog" style="background-color: #edf1f5;">
+            <div class="col-md-12">
+                <form action="<?php echo site_url('Accueil/add_new') ?>" method="POST">
+                    <label class="ne">NewsLetter</label>
+                    <input type="text" class="new" name="nom" placeholder="Votre nom">
+                    <input type="text" class="new" name="email" placeholder="Votre email">
+                    <input type="submit" class="pe" value="Inscription">
+                </form>
+            </div>
+    </section>        
 
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
+
+    <script>
+    // modal and cookie js
+    $(".clear-cookie").on("click", function() {
+        Cookies.remove('ModalShown');
+        $(this).replaceWith("<p><em>Cookie cleared. Re-run demo</em></p>");
+    });
+
+    $(".subscribed,.close,.close2").on("click", function() {
+        $('#modal-content').modal('hide');
+        Cookies.set('ModalShown', 'yes', {  expires: 1});
+        $(".clear-cookie").fadeIn();
+        lastFocus.focus();
+    });
+
+    /*setTimeout(function() {
+            lastFocus = document.activeElement;
+            $('#modal-content').modal('show');
+            $("#yurEmail").focus();
+        }, 2000);*/
+
+    var lastFocus;
+    var popupShown = Cookies.get('ModalShown');
+
+    if (popupShown) {
+        console.log("Cookie found. No action necessary");
+        $(".clear-cookie").show();
+    } else {
+        console.log("No cookie found. Opening popup in 3 seconds");
+        $(".clear-cookie").hide();
+        setTimeout(function() {
+            lastFocus = document.activeElement;
+            $('#modal-content').modal('show');
+            $("#yurEmail").focus();
+        }, 3000);
+    }
+
+/// ajax post request
+    $(document).ready(function () {
+
+        $("#newsletter").click(function(e) {
+            e.preventDefault();
+            var email = $("#yurEmail").val();
+            var post_url = "<?php echo site_url('Newsletter/add_new') ?>";
+            $.ajax({
+                type: "POST",
+                url: post_url,
+                data : {"email" : email},
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                }
+
+            });
+                console.log(nono);
+
+        });
+
+    });
+
+</script>
 </body>
 </html>
