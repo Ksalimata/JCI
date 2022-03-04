@@ -23,16 +23,16 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-3.jpg" alt="" style="height: 400px;width: 100%;"></div>
+                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 400px;width: 100%;"></div>
                     
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-1.jpg" alt="" style="height: 400px;width: 100%;"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 400px;width: 100%;"></div>
                 
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-2.jpg" alt="" style="height: 400px;width: 100%;"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 400px;width: 100%;"></div>
                 
             </div>
 
@@ -56,27 +56,26 @@
                     <br/>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter hdpe">
-                            <img src="<?=base_url(); ?>assets/images/events/image_01.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/events/1.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter sprinkle">
-                            <img src="<?=base_url(); ?>assets/images/events/image_02.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/events/2.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter hdpe">
-                            <img src="<?=base_url(); ?>assets/images/events/image_01.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/events/3.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter irrigation">
-                            <img src="<?=base_url(); ?>assets/images/events/image_03.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/events/4.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter spray">
-                            <img src="<?=base_url(); ?>assets/images/events/image_04.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/events/5.jpeg" class="img-responsive">
                         </div>
 
-                      
-
+                    
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter spray">
                             <img src="<?=base_url(); ?>assets/images/events/image_05.jpg" class="img-responsive">
                         </div>
@@ -89,6 +88,21 @@
                             <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
                         </div>
 
+
+                        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter spray">
+                            <img src="<?=base_url(); ?>assets/images/events/image_05.jpg" class="img-responsive">
+                        </div>
+
+                        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter irrigation">
+                            <img src="<?=base_url(); ?>assets/images/events/image_06.jpg" class="img-responsive">
+                        </div>
+
+                        <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter irrigation">
+                            <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
+                        </div>
+                        <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter irrigation">
+                            <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
+                        </div>
             
                 </div>
             </div>
@@ -96,5 +110,12 @@
 
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
+    <style type="text/css">
+        .img-responsive{
+            height: 175px;
+            width: 100%;
+
+        }
+    </style>
 </body>
 </html>

@@ -11,6 +11,7 @@ class Accueil extends CI_Controller {
 		parent::__construct();
 		$this->load->library('email');
     	$this->load->library(array('form_validation', 'mailjet'));
+    	$this->load->model('login_model');
 		
 	}
 
@@ -30,7 +31,43 @@ class Accueil extends CI_Controller {
             //$insert = $this->db->insert_id();
             redirect('Accueil');
     }
-
+    public function login()
+    {
+    	$email    = $this->input->post('email',TRUE);
+	    $password = md5($this->input->post('password',TRUE));
+	    $validate = $this->login_model->validate($email,$password);
+	    if($validate->num_rows() > 0)
+	    {
+	        $data  = $validate->row_array();
+	        $name  = $data['user_name'];
+	        $email = $data['user_email'];
+	        $level = $data['user_level'];
+	        $sesdata = array(
+	            'username'  => $name,
+	            'email'     => $email,
+	            'level'     => $level,
+	            'logged_in' => TRUE
+	        );
+	        $this->session->set_userdata($sesdata);
+	        // access login for admin
+	        if($level === '1')
+	        {
+	            redirect('Accueil');
+	 
+	        }elseif($level === '2')
+	        {
+	            redirect('Accueil');
+	 
+	        }else
+	        {
+	            redirect('Accueil');
+	        }
+	    }else
+	    {
+	        echo $this->session->set_flashdata('msg','Username or Password is Wrong');
+	        redirect('Accueil');
+	    }
+    }
 	public function commission()
 	{
 
@@ -108,7 +145,12 @@ class Accueil extends CI_Controller {
 	        redirect('Accueil/contact');
 
 		}
-	}	
+	}
+	function logout()
+	{
+      $this->session->sess_destroy();
+      redirect('Accueil');
+  	}	
 
 }
 ?>

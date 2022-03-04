@@ -43,14 +43,13 @@
 </head>
 <body>
 	<?php $this->load->view('tlp/header'); ?>
-
 	<!-- ******************** Slider Starts Here ******************* -->
     <div class="slider">
         <!-- Set up your HTML -->
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-3.jpg" alt=""></div>
+                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 540px;width: 100%;"></div>
                     <div class="container">
                         <div class="row">
                             
@@ -62,7 +61,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-1.jpg" alt=""></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 540px;width: 100%;"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -73,7 +72,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slider/slider-2.jpg" alt=""></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 540px;width: 100%;"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -119,7 +118,7 @@
 
 	        <div class="row natur-row no-margin w-100">
 	        	<div class="image-part col-md-6">
-		            <img src="<?=base_url(); ?>assets/images/president.jpg" alt="" style="width: 467px;height: 483px;">
+		            <img src="<?=base_url(); ?>assets/images/events/4.jpeg" alt="" style="width: 467px;height: 483px;">
 		            
 	            </div>
 	            <div class="text-part col-md-6">

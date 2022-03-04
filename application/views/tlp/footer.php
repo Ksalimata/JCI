@@ -52,15 +52,15 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-md-4 col-sm-12 map-img" style="padding-left: 83px;">
+                <div class="col-md-4 col-sm-12 map-img" style="padding-left:5px;">
                     <h2>Contactez Nous</h2>
                     <address class="md-margin-bottom-40">
-                        BlueDart <br>
-                        Marthandam (K.K District) <br>
-                        Tamil Nadu, IND <br>
-                        Phone: +91 9159669599 <br>
-                        Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
-                        Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
+                        JCI Abidjan Ivoire <br>
+                        Angle avenue LAMBLIN, Rue Augustin <br>
+                        Plateau, 01 BP 3714 Abidjan 01 <br>
+                        Phone: (+225) 0708474285/ 0749258131 <br>
+                        Email: <a href="mailto:info@anybiz.com" class="">jciabidjanivoire.sg@gmail.com</a><br>
+                        Web: <a href="smart-eye.html" class="">www.jciabidjanivoire.org</a>
                     </address>
                     <div class="donate-link col-md-3"><a href="Accueil/contact" class="btn btn-primary "><span class="btn-title">Rejoignez-nous !</span></a></div>
                 </div>

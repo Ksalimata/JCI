@@ -32,8 +32,25 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
-                    <button class="btn btn-sm btn-primary" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/contact');?>">Rejoignez-nous !</a></button>
+                    
+                        <?php if($this->session->userdata('username')):?>
+                            <?php echo("Bienvenu ". $this->session->userdata('username')); ?>
+                            <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/logout');?>">Deconnexion</a>
+                            </button>
+                        <?php endif;?>    
+                    
+                        <?php echo $this->session->flashdata('msg');?>
+                        <?php if (($this->session->userdata('username'))==NULL):?>
+                        <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;">Connectez-vous !
+                        </button>
+                        <?php endif;?>
+                    <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
+                        <input type="text"  name="email" id="mail" placeholder="email"  class="cobtn">
+                        <input type="password"  name="password" id="pass" placeholder="password" class="cobtn">
+                        <input type="submit" value="Se Connecter" style="margin-top: 7%;margin-right:-33%;">
+                    </form>
                     <!-- <button class="btn btn-sm btn-default">Donate</button> -->
+
                 </div>
             </div>
         </div>
@@ -66,17 +83,19 @@
                                         <a style="border-radius: 2px;" class="sous-menu" href="<?php //echo site_url('Accueil/loisirs');?>">Cultures, Loisirs et Anglais</a>
                                       </div>
                                 </li> -->
+                                <?php if($this->session->userdata('level')==='1'):?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/archive');?>">Archives</a>
                                 </li>
-
+                                <?php endif;?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/event');?>">Evenements</a>
                                 </li>
-
+                                <?php if($this->session->userdata('level')==='1'):?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/annuaire');?>">Annuaire</a>
                                 </li>
+                                <?php endif;?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/propos');?>">A propos</a>
                                 </li>
@@ -121,9 +140,27 @@
 
     .dropdown:hover .nav-link {background-color: #3e8e41;}
 
-    .nav-item a.active {
+    .nav-item a.active 
+{
     background-color: #04AA6D!important;
     color: #ffffff;
-}   
+} 
+.cobtn  
+{
+    float: left;
+    margin-right: 0px !important;
+    color: #a0a1a3;
+    padding-left: 29px;
+    border: 1px solid;
+    margin-top: 2%;
+}
     
 </style>
+<script type="text/javascript">
+    function nextPrev()
+    {
+        document.getElementById("conect").style.display = "none";
+        document.getElementById("connect").style.display = "block";
+        //document.getElementById("pass").style.display = "block";
+    }
+</script>

@@ -21,7 +21,7 @@
 	<section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row session-title">
-                    <h2> Nos Actions </h2>
+                    
                     <!-- <p>Take a look at what people say about US </p> -->
                 </div>
                 <div class="blog-row row">
