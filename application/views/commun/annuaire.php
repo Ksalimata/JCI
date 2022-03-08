@@ -7,7 +7,7 @@
 	<?php $this->load->view('tlp/header'); ?>
 	
 	<!--  ************************* Page Title Starts Here ************************** -->
-	<div class="page-nav no-margin row">
+	<div class="page-nav no-margin row" style="background-image: url('<?=base_url(); ?>assets/images/comm.jpg');height: 400px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);">
         <div class="container">
             <div class="row">
                 <h2>Annuaire</h2>

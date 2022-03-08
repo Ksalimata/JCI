@@ -49,7 +49,7 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 540px;width: 100%;"></div>
+                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
                     <div class="container">
                         <div class="row">
                             
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 540px;width: 100%;"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 540px;width: 100%;"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -118,7 +118,7 @@
 
 	        <div class="row natur-row no-margin w-100">
 	        	<div class="image-part col-md-6">
-		            <img src="<?=base_url(); ?>assets/images/events/4.jpeg" alt="" style="width: 467px;height: 483px;">
+		            <img src="<?=base_url(); ?>assets/images/president.jpg" alt="" style="width: 467px;height: 483px;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);">
 		            
 	            </div>
 	            <div class="text-part col-md-6">
@@ -155,50 +155,17 @@
           </div>
       </div>
    </section> 
-   <!-- <section class="our-blog">
-   		<div class="container">
-         		
-        		<div class="blog-row row">
-        			<div class="col-md-12 col-sm-6">
-        				<div class="single-blog">
-        					
-        					<div class="blog-detail">
-        						<center><h2>Notre Mission</h2></center>
-								<center>
-									<h4> Offrir aux jeunes gens des opportunités de développement qui leur permettront de créer des changements positifs </h4>
-								</center>
-								
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        		<div class="blog-row row">
-        			<div class="col-md-12 col-sm-6">
-        				<div class="single-blog">
-        					
-        					<div class="blog-detail">
-        						<center><h2>Notre Vision</h2></center>
-								<center>
-									<h4> Être le principal réseau mondial de Jeunes Citoyens Actifs </h4>
-								</center>
-								
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        </div>				
-   </section>  --> 
+    
     <section class="our-blog" style="background-color: #edf1f5;">
          	<div class="container">
          		<div class="row session-title">
         			<h2> Nos Actions </h2>
-        			<!-- <p>Take a look at what people say about US </p> -->
         		</div>
         		<div class="blog-row row">
         			<div class="col-md-4 col-sm-6">
         				<div class="single-blog">
         					<figure>
-        						<img src="<?=base_url(); ?>assets/images/events/image_01.jpg" alt="">
+        						<img src="<?=base_url(); ?>assets/images/action.png" alt="" style="height: 241px;width: 100%;">
         					</figure>
         					<div class="blog-detail">
         							<h5>
@@ -212,7 +179,7 @@
         			<div class="col-md-4 col-sm-6">
         				<div class="single-blog">
         					<figure>
-        						<img src="<?=base_url(); ?>assets/images/events/image_02.jpg" alt="">
+        						<img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
         					</figure>
         					<div class="blog-detail">
         						
@@ -228,7 +195,7 @@
         			<div class="col-md-4 col-sm-6">
         				<div class="single-blog">
         					<figure>
-        						<img src="<?=base_url(); ?>assets/images/events/image_03.jpg" alt="">
+        						<img src="<?=base_url(); ?>assets/images/loisi.jpg" alt="" style="height: 241px;width: 100%;">
         					</figure>
         					<div class="blog-detail">
         						
@@ -251,43 +218,10 @@
                   <h2>Nos Partenaires</h2>
                   
             </div>
-            <div class="row team-row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-usr">
-                        <img src="<?=base_url(); ?>assets/images/team/team-memb1.jpg" alt="">
-                        <div class="det-o">
-                            <h4>David Kanuel</h4>
-                            <i>CEO </i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-usr">
-                        <img src="<?=base_url(); ?>assets/images/team/team-memb2.jpg" alt="">
-                        <div class="det-o">
-                            <h4>David Kanuel</h4>
-                            <i>CFO</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-usr">
-                        <img src="<?=base_url(); ?>assets/images/team/team-memb3.jpg" alt="">
-                        <div class="det-o">
-                            <h4>David Kanuel</h4>
-                            <i>Team Leader</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-usr">
-                        <img src="<?=base_url(); ?>assets/images/team/team-memb4.jpg" alt="">
-                        <div class="det-o">
-                            <h4>David Kanuel</h4>
-                            <i>Project Manager</i>
-                        </div>
-                    </div>
-                </div>
+            <div class="row team-row" >
+                <div class="col-md-2"></div>
+                <div class="col-md-8" style="background-image: url('<?=base_url(); ?>assets/images/test.png');height: 413px;width: 100%;"></div>
+                <div class="col-md-2"></div>
 
 
             </div>

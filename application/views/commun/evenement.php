@@ -4,10 +4,12 @@
 	<?php $this->load->view('tlp/css_file'); ?>
 </head>
 <body>
+
 	<?php $this->load->view('tlp/header'); ?>
 
 	<!--  ************************* Page Title Starts Here ************************** -->
-	<!-- <div class="page-nav no-margin row" style="background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png');height: 400px;width: 100%;">
+	
+    <div class="page-nav no-margin row" style="background-image: url('<?=base_url(); ?>assets/images/comm.jpg');height: 400px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);">
         <div class="container" >
             <div class="row">
                 <h2>Evenement</h2>
@@ -16,26 +18,6 @@
                     <li><i class="fas fa-angle-double-right"></i> Evenement</li>
                 </ul>
             </div>
-        </div>
-    </div>-->
-    <div class="page-nav no-margin row slider" style="padding: 0px;background-color: #ffffff;">
-        <!-- Set up your HTML -->
-        <div class="owl-carousel ">
-            <div class="slider-img">
-                <div class="item">
-                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 400px;width: 100%;"></div>
-                    
-                </div>
-            </div>
-            <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 400px;width: 100%;"></div>
-                
-            </div>
-            <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 400px;width: 100%;"></div>
-                
-            </div>
-
         </div>
     </div>
 
