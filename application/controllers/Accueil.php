@@ -5,14 +5,17 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Accueil extends CI_Controller {
-
+	 public $membre;
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->library('email');
     	$this->load->library(array('form_validation', 'mailjet'));
     	$this->load->model('login_model');
-		
+	    $this->load->library('session');
+	    $this->load->model('Membre_model');
+
+        $this->membre = new Membre_model;	
 	}
 
 	public function index()
@@ -117,6 +120,38 @@ class Accueil extends CI_Controller {
 
 		$this->load->view('commun/contact');
 	}
+	
+
+	public function inscription()
+   {
+        $this->form_validation->set_rules('name', 'Name', 'required');
+        $this->form_validation->set_rules('pname', 'Pname', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
+        $this->form_validation->set_rules('phone', 'Phone', 'required');
+        $this->form_validation->set_rules('fonction', 'Fonction', 'required');
+        $this->form_validation->set_rules('role', 'Role', 'required');
+        $this->form_validation->set_rules('olm', 'Olm', 'required');
+
+        if ($this->form_validation->run() == FALSE){
+            $this->session->set_flashdata('errors', validation_errors());
+            redirect(base_url('Accueil/contact'));
+        }else
+        {
+        	
+        	$data = array(
+            'name' => $_POST['name'],
+            'pname' => $_POST['pname'],
+            'email' => $_POST['email'],
+            'phone' => $_POST['phone'],
+            'fonction' => $_POST['fonction'],
+            'role' => $_POST['role'],
+            'olm' => $_POST['olm'],);
+
+           $this->membre->insert_item($data);
+           $this->session->set_flashdata('succes', 'Insertion effectué avec succes');
+           redirect(base_url('Accueil'));
+        }
+    }
 
 	public function sendEmail()
 	{

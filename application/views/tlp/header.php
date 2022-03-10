@@ -2,18 +2,18 @@
     <div  class="header-top">
         <div class="container">
             <div class="row col-det">
-                <div class="col-lg-6 d-none d-lg-block">
+                <div class="col-md-3 d-none d-lg-block">
                     <ul class="ulleft">
                         <li>
                             <i class="far fa-envelope"></i>
                             jciabidjanivoire.sg@gmail.com
-                            <span>|</span></li>
-                        <li>
-                            <i class="fas fa-phone-volume"></i>
-                            +225 07 07 78 08 87 </li>
+                            <span> </span> <i class="fas fa-phone-volume"></i>
+                            +225 07 07 78 08 87
+                        </li>
+
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 folouws">
+                <div class="col-md-3 folouws">
                   
                     <ul class="ulright">
                        <li> <small>Suivez nous</small>:</li>
@@ -31,26 +31,30 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                <div class="col-md-3 d-none d-md-block btn-bhed">
                     
-                        <?php if($this->session->userdata('username')):?>
-                            <?php echo("Bienvenu ". $this->session->userdata('username')); ?>
-                            <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/logout');?>">Deconnexion</a>
-                            </button>
-                        <?php endif;?>    
-                    
-                        <?php echo $this->session->flashdata('msg');?>
-                        <?php if (($this->session->userdata('username'))==NULL):?>
-                        <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;">Connectez-vous !
+                    <?php if($this->session->userdata('username')):?>
+                        <?php echo("Bienvenu ". $this->session->userdata('username')); ?>
+                        <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/logout');?>">Deconnexion</a>
                         </button>
-                        <?php endif;?>
+                    <?php endif;?>    
+                
+                    <?php echo $this->session->flashdata('msg');?>
+                    <?php if (($this->session->userdata('username'))==NULL):?>
+                    <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;margin-left:90%;x">Connectez-vous !
+                    </button>
+                    <?php endif;?>
                     <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
                         <input type="text"  name="email" id="mail" placeholder="email"  class="cobtn">
                         <input type="password"  name="password" id="pass" placeholder="password" class="cobtn">
                         <input type="submit" value="Se Connecter" style="margin-top: 7%;margin-right:-33%;">
                     </form>
                     <!-- <button class="btn btn-sm btn-default">Donate</button> -->
-
+                </div>
+                <div class="col-md-3 d-none d-md-block btn-bhed">
+                    <button class="btn btn-sm btn-primary coo" style="border: 1px solid #f9c800;background-color: #f9c800;"> 
+                        <a href="<?php echo site_url('Accueil/contact');?>">Inscription </a>
+                    </button>
                 </div>
             </div>
         </div>

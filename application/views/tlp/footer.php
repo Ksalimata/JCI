@@ -82,7 +82,7 @@
                         Email: <a href="mailto:info@anybiz.com" class="">jciabidjanivoire.sg@gmail.com</a><br>
                         Web: <a href="smart-eye.html" class="">www.jciabidjanivoire.org</a>
                     </address>
-                    <div class="donate-link col-md-3"><a href="Accueil/contact" class="btn btn-primary "><span class="btn-title">INSCRIPTION</span></a></div>
+                    <div class="donate-link col-md-3"><a href="<?php echo site_url('Accueil/contact');?>" class="btn btn-primary "><span class="btn-title">INSCRIPTION</span></a></div>
                 </div>
 
             </div>
