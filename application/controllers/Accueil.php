@@ -71,6 +71,7 @@ class Accueil extends CI_Controller {
 	        redirect('Accueil');
 	    }
     }
+    
 	public function commission()
 	{
 

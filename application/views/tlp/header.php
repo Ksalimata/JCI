@@ -101,6 +101,9 @@
                                 </li>
                                 <?php endif;?>
                                 <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo site_url('Accueil/doc');?>">Document</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/propos');?>">A propos</a>
                                 </li>
 
