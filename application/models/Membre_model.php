@@ -14,7 +14,6 @@ class Membre_model extends CI_Model{
 
     public function insert_item($data)
     {    
-        
         return $this->db->insert('membre', $data);
     }
 }

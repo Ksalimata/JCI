@@ -67,7 +67,7 @@ class Accueil extends CI_Controller {
 	        }
 	    }else
 	    {
-	        echo $this->session->set_flashdata('msg','Username or Password is Wrong');
+	        $this->session->set_flashdata('msg','Username or Password is Wrong');
 	        redirect('Accueil');
 	    }
     }
@@ -140,17 +140,37 @@ class Accueil extends CI_Controller {
         {
         	
         	$data = array(
-            'name' => $_POST['name'],
-            'pname' => $_POST['pname'],
+            'nom' => $_POST['name'],
+            'prenom' => $_POST['pname'],
             'email' => $_POST['email'],
             'phone' => $_POST['phone'],
             'fonction' => $_POST['fonction'],
             'role' => $_POST['role'],
             'olm' => $_POST['olm'],);
 
-           $this->membre->insert_item($data);
-           $this->session->set_flashdata('succes', 'Insertion effectué avec succes');
-           redirect(base_url('Accueil'));
+           $insert =$this->membre->insert_item($data);
+           if ($insert)
+           {
+           	$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
+           	redirect(base_url('Accueil'));
+           	
+           }else
+           {
+           		$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
+           		redirect(base_url('Accueil/contact'));
+           }
+           /*CREATE TABLE membre
+			(
+			    id INT PRIMARY KEY NOT NULL,
+			    nom VARCHAR(100),
+			    prenom VARCHAR(100),
+			    email VARCHAR(255),
+			    phone VARCHAR(15),
+			    fonction VARCHAR(50),
+			    role VARCHAR(50),
+			    olm VARCHAR(50),
+			    profession VARCHAR(255)
+			)*/
         }
     }
 

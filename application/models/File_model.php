@@ -1,14 +1,21 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class File_model extends CI_Model{
+class File_model extends CI_Model
+{
     /*
      * get rows from the files table
      */
-    function getRows($params = array()){
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->database();
+    }
+
+    /*function getRows($params = array()){
         $this->db->select('*');
         $this->db->from('files');
-        $this->db->where('status','1');
-        $this->db->order_by('created','desc');
+        //$this->db->where('status','1');
+        //$this->db->order_by('created','desc');
         if(array_key_exists('id',$params) && !empty($params['id'])){
             $this->db->where('id',$params['id']);
             //get records
@@ -27,6 +34,20 @@ class File_model extends CI_Model{
         }
         //return fetched data
         return $result;
+    }*/
+
+    public function getAllFiles(){
+        $query = $this->db->get('files');
+        return $query->result(); 
+    }
+ 
+    public function insertfile($file){
+        return $this->db->insert('files', $file);
+    }
+ 
+    public function download($id){
+        $query = $this->db->get_where('files',array('id'=>$id));
+        return $query->row_array();
     }
 
 }

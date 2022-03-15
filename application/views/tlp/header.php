@@ -103,10 +103,19 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Files');?>">Document</a>
                                 </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="<?php //echo site_url('Accueil/propos');?>">A propos</a>
+                                </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('Accueil/propos');?>">A propos</a>
-                                </li>
-
+                                    <a class="nav-link" href="#">A propos</a>
+                                      <div class="dropdown-content">
+                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciCI');?>">Jeune Chambre Internationale Côte d'Ivoire</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/jci');?>">Jeune Chambre Internationale</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/organigrame');?>">Organigrammes</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/aires');?>">Aires d'opportunités</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/membre');?>">Devenir Membre</a>
+                                      </div>
+                                </li>      
                             </ul>
 
                 </div>

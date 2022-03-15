@@ -122,10 +122,17 @@
 		            
 	            </div>
 	            <div class="text-part col-md-6">
-	                <h2>Mot de Bienvenue</h2>
-	                <p>Vous souhaitez prononcer un discours de remerciements mais vous ne savez pas exactement comment les exprimer pour être agréable et surtout non répétitif ! Il n'y a pas plus rébarbatif que ces interventions qui font défiler les mercis à la suite sans originalité et avec la même phrase redite à volonté. Vous ne souhaitez pas faire le énième discours de remerciements du festival de Cannes ? Alors, on vous explique comment captiver votre auditoire tout en atteignant votre objectif. </p>
-	                <p> Vous souhaitez prononcer un discours de remerciements mais vous ne savez pas exactement comment les exprimer pour être agréable et surtout non répétitif ! Il n'y a pas plus rébarbatif que ces interventions qui font défiler les mercis à la suite sans originalité et avec la même phrase redite à volonté. Vous ne souhaitez pas faire le énième discours de remerciements du festival de Cannes ? Alors, on vous explique comment captiver votre auditoire tout en atteignant votre objectif.</p>	                
-	            </div>
+	                <h2>Honorables Sénateurs,</h2>
+	                
+                    <p>Distingués Past-Présidents,
+                    Amis Membres et Membres Potentiels,
+
+                    C'est avec un grand plaisir que je voudrai vous réitérer mes remerciements pour la confiance que vous avez voulu placer en ma personne pour la mandature 2022.
+
+                    Ceci dit de nouveaux challenges et défits nous attendent et j'ai la lourde responsabilité de réhausser dans tout ce tremplin l'image de notre oragnisation.
+
+                    ceci ne pourra être possible que par l'engagement de chacun de nous pour donner un impact durable à ntre communauté.</p>
+                </div>
 
 	        </div>
 	    </div>
