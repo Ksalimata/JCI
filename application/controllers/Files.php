@@ -35,7 +35,7 @@
                 }
                 $config['upload_path'] = 'upload/';
                 //restrict uploads to this mime types
-                $config['allowed_types'] = 'jpg|jpeg|png|gif|pdf';
+                $config['allowed_types'] = 'jpg|jpeg|png|gif|pdf|docx';
                 $config['file_name'] = $_FILES['upload']['name'];
                 //Load upload library and initialize configuration
                 $this->load->library('upload', $config);

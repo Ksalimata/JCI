@@ -20,9 +20,9 @@
     </div>
 
 	<div class="container">
-		<h1 class="page-header text-center">CodeIgniter Download</h1>
 		<div class="row">
-			<div class="col-sm-4">
+			<h2>Liste des documents officiels</h2>
+			<!-- <div class="col-sm-4">
 				<h3>File Upload Form</h3>
 				<form method="POST" action="<?php echo base_url(); ?>Files/insert" enctype="multipart/form-data">
 					<div class="form-group">
@@ -52,15 +52,16 @@
 						<?php
 					}
 				?>
-			</div>
-			<div class="col-sm-8">
+			</div> -->
+			<br><br><br>
+			<div class="col-sm-12">
 				<table class="table table-bordered table-striped">
 					<thead>
 						<tr>
-							<th>ID</th>
-							<th>Filename</th>
+							<th>N</th>
+							<th>Nom</th>
 							<th>Description</th>
-							<th>Download</th>
+							<th>Telecharger</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -68,9 +69,9 @@
 						foreach($files as $file){
 							?>
 							<tr>
-								<td><?php echo $file->id; ?></td>
-								<td><?php echo $file->filename; ?></td>
-								<td><?php echo $file->description; ?></td>
+								<td><?php echo $file->id; ?> </td>
+								<td><?php echo $file->filename; ?> </td>
+								<td><?php echo $file->description; ?> </td>
 								<td><a href="<?php echo base_url().'files/download/'.$file->id; ?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt"></a></td>
 							</tr>
 							<?php

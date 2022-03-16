@@ -19,59 +19,59 @@
         </div>
     </div>
     <section>
-    	DEVENIR MEMBRE DE LA JCI-Abidjan-Ivoire
-			1. Pourquoi ?
-				La Jeune Chambre Internationale est une organisation de jeunes qui possède de nombreuses opportunités de développement. Elle vous offre :
+    	<h1>DEVENIR MEMBRE DE LA JCI-Abidjan-Ivoire</h1>
+			<h3>1. Pourquoi ?</h3> 
+				<p>La Jeune Chambre Internationale est une organisation de jeunes qui possède de nombreuses opportunités de développement. Elle vous offre : </p><br>
 
-			- un champ d’action où sont possibles diverses expériences personnelles, en particulier celle de la vie d’un groupe et du travail en équipe ;
+			<p>- un champ d’action où sont possibles diverses expériences personnelles, en particulier celle de la vie d’un groupe et du travail en équipe ; </p><br>
 
-			- un banc d’essais des aptitudes individuelles en dehors du domaine familial et professionnel ;
+			<p>- un banc d’essais des aptitudes individuelles en dehors du domaine familial et professionnel ; </p><br>
 
-			- la possibilité d’avoir des responsabilités nouvelles et d’acquérir un sens réel de décisions ;
+			<p>- la possibilité d’avoir des responsabilités nouvelles et d’acquérir un sens réel de décisions ; </p><br>
 
-			- une formation spécifique et une formation sur le comportement fondamental de l’individu en groupe afin de vous amener à devenir un leader ;
+			<p>- une formation spécifique et une formation sur le comportement fondamental de l’individu en groupe afin de vous amener à devenir un leader ; </p><br>
 
-			- la possibilité d’améliorer la vie économique et sociale de l’humanité ;
+			<p>- la possibilité d’améliorer la vie économique et sociale de l’humanité ; </p><br>
 
-			- une occasion de contacts humains enrichissants ;
+			<p>- une occasion de contacts humains enrichissants ; </p><br>
 
-			- une ouverture internationale à travers les contacts avec les ressortissants de différents pays.
-
-
-
-					2. Comment ?
-			Pour devenir membre de la Jeune Chambre Internationale, il suffit :
-
-			d’avoir entre 18 et 40 ans et avoir une activité professionnelle ;
-
-			de prendre contact avec une Organisation Locale de la Jeune Chambre Internationale et participer à ses activités ;
-
-			de manifester le désir d’être membre;
-
-			de s'acquiter de son droit statutaire à chaque mandat.
+			<p>- une ouverture internationale à travers les contacts avec les ressortissants de différents pays. </p><br>
 
 
 
+				<h3>	2. Comment ?</h3><br>
+			<p>Pour devenir membre de la Jeune Chambre Internationale, il suffit : <br>
 
-			II. IMPLICATION DE L’APPARTENANCE A LA JCI
-			1. Engagement
-			L’adhésion à la JCI consiste à vouloir participer au devenir de la société actuelle en pleine évolution en cherchant à concilier les impératifs économiques avec le respect de la personne et de la dignité humaine qui est le fondement de toute civilisation. Elle appelle une prise de conscience plus aigue des problèmes du monde contemporain.
+			d’avoir entre 18 et 40 ans et avoir une activité professionnelle ; <br>
 
-			Elle estime qu’un tel idéal suppose l’accession de tous les hommes aux responsabilités par la formation qui est la base de la connaissance, seule susceptible d’assurer une plus grande rationalité des comportements humains dans l’action.
+			de prendre contact avec une Organisation Locale de la Jeune Chambre Internationale et participer à ses activités ; <br>
 
+			de manifester le désir d’être membre; <br>
 
-
-						2. Obligation
-
-			Être membre de la JCI est une exigence envers soi-même et envers la société. Cela oblige le membre à participer par sa présence et son activité aux réunions et aux travaux de son OLM, et à se rendre disponible en fonction de ses moyens et compétence à œuvrer pour le bien public. Cette ouverture peut le conduire à prendre par la suite des charges publiques qu’il devra assumer dans l’esprit de service.
+			de s'acquiter de son droit statutaire à chaque mandat. </p><br>
 
 
 
-			3. Conscience de ses responsabilités
 
-				Être membre de la JCI amène à prendre conscience de ses responsabilités vis-à-vis de soi-même, de sa famille, de sa communauté, de sa profession. Par son appartenance au premier mouvement international de jeunes hommes et femmes responsables, le membre contribue à une meilleure compréhension entre les peuples, et prend conscience d’aider à l’édification d’une société universelle sans distinction de race, de religion, de philosophie, dans le respect de la personnalité de tous les peuples et de tous les hommes.
+			<h2>II. IMPLICATION DE L’APPARTENANCE A LA JCI</h2>
+			<h3>1. Engagement</h3><br>
+			<p>L’adhésion à la JCI consiste à vouloir participer au devenir de la société actuelle en pleine évolution en cherchant à concilier les impératifs économiques avec le respect de la personne et de la dignité humaine qui est le fondement de toute civilisation. Elle appelle une prise de conscience plus aigue des problèmes du monde contemporain. </p><br>
 
-			L’affiliation à la JCI est l’expression de la volonté d’agir pour la construction d’un monde meilleur, caractérisé par des hommes libres et responsables, attachés au bonheur et au progrès de toute l’humanité.
+			<p>Elle estime qu’un tel idéal suppose l’accession de tous les hommes aux responsabilités par la formation qui est la base de la connaissance, seule susceptible d’assurer une plus grande rationalité des comportements humains dans l’action. </p><br>
+
+
+
+					<h3>	2. Obligation</h3><br>
+
+			<p>Être membre de la JCI est une exigence envers soi-même et envers la société. Cela oblige le membre à participer par sa présence et son activité aux réunions et aux travaux de son OLM, et à se rendre disponible en fonction de ses moyens et compétence à œuvrer pour le bien public. Cette ouverture peut le conduire à prendre par la suite des charges publiques qu’il devra assumer dans l’esprit de service. </p><br>
+
+
+
+			<h3>3. Conscience de ses responsabilités</h3><br>
+
+				<p>Être membre de la JCI amène à prendre conscience de ses responsabilités vis-à-vis de soi-même, de sa famille, de sa communauté, de sa profession. Par son appartenance au premier mouvement international de jeunes hommes et femmes responsables, le membre contribue à une meilleure compréhension entre les peuples, et prend conscience d’aider à l’édification d’une société universelle sans distinction de race, de religion, de philosophie, dans le respect de la personnalité de tous les peuples et de tous les hommes. </p><br>
+
+			<p>L’affiliation à la JCI est l’expression de la volonté d’agir pour la construction d’un monde meilleur, caractérisé par des hommes libres et responsables, attachés au bonheur et au progrès de toute l’humanité. </p><br>
     </section>
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
