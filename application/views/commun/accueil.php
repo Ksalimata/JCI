@@ -6,16 +6,9 @@
     <style type="text/css">
         .new
         {
-            float: left;
-            width: 299px;
-            margin-right: 0px !important;
-            margin-left: 30px !important;
-            color: #a0a1a3;
-            font-size: 19px;
-            padding: 3px;
-            padding-left: 29px;
-            height: 44px;
-            border: 1px solid;
+            float: left; color: #a0a1a3;
+            font-size: 19px;border: 1px solid;
+            margin-top: 2%;
         }
         .ne{
             float: left;
@@ -28,15 +21,12 @@
             font-weight: 600;
         }
         .pe{
+            display: inline-table; */
             background-color: #3597dc;
             border: 1px solid #359dda;
             margin-right: 42px;
-            margin-left: 31px;
-            margin-top: -3px;
-            color: white;
+            margin-left: 100%;
             width: 192px;
-            padding: 3px;
-            font-size: 25px;
             font-family: "Opificio-Regular";
         }
     </style>
@@ -236,13 +226,17 @@
     </section>
 
     <section class="our-blog" style="background-color: #edf1f5;">
-            <div class="col-md-12">
-                <form action="<?php echo site_url('Accueil/add_new') ?>" method="POST">
-                    <label class="ne">NewsLetter</label>
-                    <input type="text" class="new" name="nom" placeholder="Votre nom">
-                    <input type="text" class="new" name="email" placeholder="Votre email">
-                    <input type="submit" class="pe" value="Inscription">
-                </form>
+            <div class="container">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form action="<?php echo site_url('Accueil/add_new') ?>" method="POST">
+                        <label class="ne">NewsLetter</label>
+                        <input type="text" class="new" name="nom" placeholder="Votre nom">
+                        <input type="text" class="new" name="email" placeholder="Votre email">
+                        <input type="submit" class="" value="Inscription">
+                    </form>
+                </div>    
+                <div class="col-md-2"></div>
             </div>
     </section>        
 

@@ -31,31 +31,39 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 d-none d-md-block btn-bhed">
+                <div class="col-md-3 d-none d-md-block btn-bhed" >
                     
-                    <?php if($this->session->userdata('username')):?>
-                        <?php echo("Bienvenu ". $this->session->userdata('username')); ?>
-                        <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;"><a href="<?php echo site_url('Accueil/logout');?>">Deconnexion</a>
-                        </button>
-                    <?php endif;?>    
+
                 
                     <?php echo $this->session->flashdata('msg');?>
-                    <?php if (($this->session->userdata('username'))==NULL):?>
-                    <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;margin-left:90%;x">Connectez-vous !
+                    <?php if (($this->session->userdata('nom'))==NULL):?>
+                    <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;margin-left:50%;">Connectez-vous !
                     </button>
                     <?php endif;?>
-                    <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
-                        <input type="text"  name="email" id="mail" placeholder="email"  class="cobtn">
-                        <input type="password"  name="password" id="pass" placeholder="password" class="cobtn">
-                        <input type="submit" value="Se Connecter" style="margin-top: 7%;margin-right:-33%;">
-                    </form>
+                    <?php if($this->session->userdata('nom')):?>
+                        <p style="margin-left: 39%;"><?php echo("Bienvenu ". $this->session->userdata('nom')." ".$this->session->userdata('prenom')); ?></p>
+                    <?php endif;?> 
+                   
+                        <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
+                            <input type="text"  name="email" id="mail" placeholder="email"  class="cobtn" required>
+                            <input type="password"  name="password" id="pass" placeholder="password" class="cobtn" required>
+                            <input type="submit" value="Se Connecter" style="float: right;">
+                        </form>
                     <!-- <button class="btn btn-sm btn-default">Donate</button> -->
+                    
                 </div>
+               
                 <div class="col-md-3 d-none d-md-block btn-bhed">
-                    <button class="btn btn-sm btn-primary coo" style="border: 1px solid #f9c800;background-color: #f9c800;"> 
+                    <?php if (($this->session->userdata('nom'))==NULL):?>
+                    <button class="btn btn-sm btn-primary coo" id="inscrip" style="border: 1px solid #f9c800;background-color: #f9c800;"> 
                         <a href="<?php echo site_url('Accueil/contact');?>">Inscription </a>
                     </button>
-                </div>
+                    <?php endif;?>
+                    <?php if($this->session->userdata('nom')):?>
+                        <a class="btn btn-sm btn-primary coo" href="<?php echo site_url('Accueil/logout');?>" style="border: 1px solid #f9c800;background-color: #f9c800;">Deconnexion</a>
+                        
+                    <?php endif;?> 
+                </div>    
             </div>
         </div>
     </div>
@@ -87,7 +95,7 @@
                                         <a style="border-radius: 2px;" class="sous-menu" href="<?php //echo site_url('Accueil/loisirs');?>">Cultures, Loisirs et Anglais</a>
                                       </div>
                                 </li> -->
-                                <?php if($this->session->userdata('level')==='1'):?>
+                                <?php if(($this->session->userdata('role_fk')==='1')&&($this->session->userdata('olm')==="1")):?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/archive');?>">Archives</a>
                                 </li>
@@ -95,7 +103,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/event');?>">Evenements</a>
                                 </li>
-                                <?php if($this->session->userdata('level')==='1'):?>
+                                <?php if(($this->session->userdata('role_fk')==='1')&&($this->session->userdata('olm')==="1")):?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('Accueil/annuaire');?>">Annuaire</a>
                                 </li>
@@ -177,6 +185,7 @@
     {
         document.getElementById("conect").style.display = "none";
         document.getElementById("connect").style.display = "block";
+        document.getElementById("inscrip").style.display = "none";
         //document.getElementById("pass").style.display = "block";
     }
 </script>

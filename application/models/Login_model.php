@@ -5,9 +5,9 @@ class Login_model extends CI_Model
  
   function validate($email,$password)
   {
-    $this->db->where('user_email',$email);
-    $this->db->where('user_password',$password);
-    $result = $this->db->get('users',1);
+    $this->db->where('email',$email);
+    $this->db->where('password',$password);
+    $result = $this->db->get('membre',1);
     return $result;
   }
  

@@ -42,22 +42,34 @@ class Accueil extends CI_Controller {
 	    if($validate->num_rows() > 0)
 	    {
 	        $data  = $validate->row_array();
-	        $name  = $data['user_name'];
-	        $email = $data['user_email'];
-	        $level = $data['user_level'];
+	        $nom  = $data['nom'];
+	        $prenom = $data['prenom'];
+	        $email = $data['email'];
+	        $phone = $data['phone'];
+	        $role = $data['role'];
+	        $olm = $data['olm'];
+	        $profession = $data['profession'];
+	        $role_fk = $data['role_fk'];
+
 	        $sesdata = array(
-	            'username'  => $name,
+	            'nom'  => $nom,
+	            'prenom'  => $prenom,
 	            'email'     => $email,
-	            'level'     => $level,
+	            'phone'     => $phone,
+	            'role'     => $role,
+	            'olm'     => $olm,
+	            'profession'     => $profession,
+	            'role_fk'     => $role_fk,
 	            'logged_in' => TRUE
 	        );
 	        $this->session->set_userdata($sesdata);
+
 	        // access login for admin
-	        if($level === '1')
+	        if($role_fk === '1')
 	        {
 	            redirect('Accueil');
 	 
-	        }elseif($level === '2')
+	        }elseif($role_fk === '2')
 	        {
 	            redirect('Accueil');
 	 
@@ -67,7 +79,7 @@ class Accueil extends CI_Controller {
 	        }
 	    }else
 	    {
-	        $this->session->set_flashdata('msg','Username or Password is Wrong');
+	        $this->session->set_flashdata('msg','Mail ou Password Incorrect');
 	        redirect('Accueil');
 	    }
     }
@@ -132,33 +144,66 @@ class Accueil extends CI_Controller {
         $this->form_validation->set_rules('fonction', 'Fonction', 'required');
         $this->form_validation->set_rules('role', 'Role', 'required');
         $this->form_validation->set_rules('olm', 'Olm', 'required');
+        $this->form_validation->set_rules('password', 'Password', 'required');
+        $this->form_validation->set_rules('cpassword', 'Cpassword', 'required');
 
-        if ($this->form_validation->run() == FALSE){
+
+        if ($this->form_validation->run() == FALSE)
+        {
             $this->session->set_flashdata('errors', validation_errors());
             redirect(base_url('Accueil/contact'));
         }else
-        {
-        	
-        	$data = array(
-            'nom' => $_POST['name'],
-            'prenom' => $_POST['pname'],
-            'email' => $_POST['email'],
-            'phone' => $_POST['phone'],
-            'fonction' => $_POST['fonction'],
-            'role' => $_POST['role'],
-            'olm' => $_POST['olm'],);
+        {   
+        	if ($this->input->post('password') == $this->input->post('cpassword'))
+        	{
+        	    		// code...
+        	    	if (strlen($this->input->post('password')) >= 8) 
+        	    	{
+        	    		$password = $this->input->post('password');
+                        $rpassword = $this->input->post('cpassword'); 
 
-           $insert =$this->membre->insert_item($data);
-           if ($insert)
-           {
-           	$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
-           	redirect(base_url('Accueil'));
-           	
-           }else
-           {
-           		$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
-           		redirect(base_url('Accueil/contact'));
-           }
+                        if ((preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $password))&&(preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $rpassword)))
+                        {
+                        	$data = array(
+				            'nom' => $_POST['name'],
+				            'prenom' => $_POST['pname'],
+				            'email' => $_POST['email'],
+				            'phone' => $_POST['phone'],
+				            'fonction' => $_POST['fonction'],
+				            'profession' => $_POST['profession'],
+				            'role' => $_POST['role'],
+				            'olm' => $_POST['olm'],
+				            'password' => md5($password)
+				        );
+
+				           $insert =$this->membre->insert_item($data);
+				           if ($insert)
+				           {
+				           		$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
+				           		redirect(base_url('Accueil/contact'));
+				           	
+				           }else
+				           {
+				           		$this->session->set_flashdata('error', "Erreur lors de l'insertion");
+				           		redirect(base_url('Accueil/contact'));
+				           }
+                        }
+                        else
+                        {
+                        	$this->session->set_flashdata('error', "Format incorrect");
+				           	redirect(base_url('Accueil/contact'));
+                        }
+        	    	}else
+        	    	{
+        	    		$this->session->set_flashdata('error', "minimum 8 caractere requis");
+				        redirect(base_url('Accueil/contact'));
+        	    	}
+        	}else
+        	{
+        		$this->session->set_flashdata('error', "Les mot de passe ne sont pas identique");
+				redirect(base_url('Accueil/contact'));
+        	}    	
+        	
            /*CREATE TABLE membre
 			(
 			    id INT PRIMARY KEY NOT NULL,
