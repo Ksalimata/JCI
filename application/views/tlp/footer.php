@@ -61,27 +61,27 @@
             </div>
             <br><br>
             <div class="row">
-                <div class="col-md-5 col-sm-12">
+                <div class="col-md-4">
                     <h2>Qui sommes-nous ?</h2>
                     <p>
                         Nous sommes de jeunes citoyens actifs du monde en général et de la Côte d’Ivoire en particulier. Vivant, communiquant, agissant et créant un impact dans nos communautés, nous sommes des Elites. Vous êtes un jeune citoyen actif ? Voulez-vous faire la différence dans votre communauté ? Rejoignez-nous dans ce voyage d’action locale pour un impact mondial.
                     </p>
                     
                 </div>
-                <div class="col-md-2 col-sm-12" style="background-image: url('<?=base_url(); ?>assets/images/logoabidjan.png');height: 194px;width: 100%;background-size: cover; background-position: center center;">
-                    
+                <div class="col-md-4" >
+                    <img src="<?=base_url(); ?>assets/images/logoabidjan.png" style="height: 194px;margin-left: 25%;">
                    
                 </div>
-                <div class="col-md-5 col-sm-12 map-img" >
+                <div class="col-md-4" >
                     <h2>Contactez Nous</h2>
-                    <address class="md-margin-bottom-40">
+                    <p >
                         JCI Abidjan Ivoire <br>
                         Angle avenue LAMBLIN, Rue Augustin <br>
                         Plateau, 01 BP 3714 Abidjan 01 <br>
                         Phone: (+225) 0708474285/ 0749258131 <br>
-                        Email: <a href="mailto:info@anybiz.com" class="">jciabidjanivoire.sg@gmail.com</a><br>
-                        Web: <a href="smart-eye.html" class="">www.jciabidjanivoire.org</a>
-                    </address>
+                        Email: <a href="#" class="">jciabidjanivoire.sg@gmail.com</a><br>
+                        Web: <a href="#" class="">www.jciabidjanivoire.org</a>
+                    </p>
                     <!-- <div class="donate-link col-md-3"><a href="<?php //echo site_url('Accueil/contact');?>" class="btn btn-primary "><span class="btn-title">INSCRIPTION</span></a></div> -->
                 </div>
 

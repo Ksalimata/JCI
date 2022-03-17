@@ -6,12 +6,13 @@
     <style type="text/css">
         .new
         {
-            float: left; color: #a0a1a3;
+            /*float: left; */
+            color: #a0a1a3;
             font-size: 19px;border: 1px solid;
             margin-top: 2%;
+            height: 36px;
         }
         .ne{
-            float: left;
             font-size: 29.09px;
             padding-left: 56px;
             padding-right: 4px;
@@ -19,6 +20,7 @@
             font-family: "Opificio-Regular";
             margin-top: 7px;
             font-weight: 600;
+
         }
         .pe{
             display: inline-table; */
@@ -28,6 +30,10 @@
             margin-left: 100%;
             width: 192px;
             font-family: "Opificio-Regular";
+        }
+        body{
+           font-family: "Opificio" !important;
+           font-size: 20px;
         }
     </style>
 </head>
@@ -39,7 +45,7 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
+                    <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide1.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);background-blend-mode: darken;"></div>
                     <div class="container">
                         <div class="row">
                             
@@ -51,7 +57,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide2.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);background-blend-mode: darken;"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -62,7 +68,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);"></div>
+                <div class="slider-img"><img src="<?=base_url(); ?>assets/images/slide3.jpeg" alt="" style="height: 540px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);background-blend-mode: darken;"></div>
                 <div class="container">
                     <div class="row">
                             
@@ -112,9 +118,10 @@
 		            
 	            </div>
 	            <div class="text-part col-md-6">
+                    <br>
 	                <h2>Honorables Sénateurs,</h2>
-	                
-                    <p>Distingués Past-Présidents,
+	                <br><br>
+                    <p style="font-size: 19px;">Distingués Past-Présidents,
                     Amis Membres et Membres Potentiels,
 
                     C'est avec un grand plaisir que je voudrai vous réitérer mes remerciements pour la confiance que vous avez voulu placer en ma personne pour la mandature 2022.
@@ -135,7 +142,7 @@
           <div class="row mission">
               <div class="col-md-6 mv-det">
                   <!-- <h1>Notre Mission</h1> -->
-                  <h4 style="font-weight:bold;"> << Offrir aux jeunes gens des opportunités de développement qui leur permettront de créer des changements positifs >> </h4>
+                  <h4 style="font-weight:bold;font-weight: bold;font-size: 20px;font-family: opificio;"> "Offrir aux jeunes gens des opportunités de développement qui leur permettront de créer des changements positifs"  </h4>
               </div>
               <div class="col-md-6 mv-img">
                   <img src="<?=base_url(); ?>assets/images/mission.png" alt="" style="margin-left: 17%;">
@@ -147,7 +154,7 @@
               </div>
               <div class="col-md-6 mv-det">
                    <!-- <h1>Notre Vision</h1> -->
-                   <h4 style="font-weight:bold;"><< Être le principal réseau mondial de Jeunes Citoyens Actifs>> </h4>
+                   <h4 style="font-weight:bold;font-weight: bold;font-size: 20px;font-family: opificio;">"Être le principal réseau mondial de Jeunes Citoyens Actifs" </h4>
               </div>
           </div>
       </div>
@@ -227,16 +234,18 @@
 
     <section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <form action="<?php echo site_url('Accueil/add_new') ?>" method="POST">
-                        <label class="ne">NewsLetter</label>
-                        <input type="text" class="new" name="nom" placeholder="Votre nom">
-                        <input type="text" class="new" name="email" placeholder="Votre email">
-                        <input type="submit" class="" value="Inscription">
-                    </form>
-                </div>    
-                <div class="col-md-2"></div>
+                <!-- <div class="col-md-2"></div> -->
+                <div class="row">
+                    <div class="col-md-12" style="text-align:center;">
+                        <form action="<?php echo site_url('Accueil/add_new') ?>" method="POST">
+                            <label class="ne">NewsLetter</label>
+                            <input type="text" class="new" name="nom" placeholder="Votre nom">
+                            <input type="text" class="new" name="email" placeholder="Votre email">
+                            <input type="submit" class="" value="Inscription">
+                        </form>
+                    </div>    
+                </div>
+                <!-- <div class="col-md-2"></div> -->
             </div>
     </section>        
 

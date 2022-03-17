@@ -10,3 +10,10 @@
     <link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/slider/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/slider/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url(); ?>assets/css/style.css" />
+
+    <style type="text/css">
+        body{
+           font-family: "Opificio" !important;
+           font-size: 20px;
+        }
+    </style>

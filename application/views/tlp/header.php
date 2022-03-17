@@ -70,14 +70,14 @@
     <div id="menu-jk" class="header-bottom">
         <div class="container">
             <div class="row nav-row">
-                <div class="col-lg-3 col-md-12 logo">
+                <div class="col-lg-2 col-md-12 logo">
                     <a href="index.html">
                         <img src="<?=base_url(); ?>assets/images/logo.png" alt="" style="height: 65px;">
                         <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                     </a>
 
                 </div>
-                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+                <div id="menu" class="col-lg-10 col-md-12 d-none d-lg-block nav-col">
 
                             <ul class="navbad">
                                 <li class="nav-item active">
