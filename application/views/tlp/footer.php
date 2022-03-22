@@ -1,65 +1,6 @@
-<footer class="footer">
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <center><h1 style="color: white;">Evènements récents</h1></center><br>
-                    <div class="blog-row row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-blog">
-                                <figure>
-                                    <img src="<?=base_url(); ?>assets/images/events/image_01.jpg" alt="">
-                                </figure>
-                                <div class="blog-detail">
-                                    <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-blog">
-                                <figure>
-                                    <img src="<?=base_url(); ?>assets/images/events/image_02.jpg" alt="">
-                                </figure>
-                                <div class="blog-detail">
-                                    <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-blog">
-                                <figure>
-                                    <img src="<?=base_url(); ?>assets/images/events/image_03.jpg" alt="">
-                                </figure>
-                                <div class="blog-detail">
-                                    <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-blog">
-                                <figure>
-                                    <img src="<?=base_url(); ?>assets/images/events/image_03.jpg" alt="">
-                                </figure>
-                                <div class="blog-detail">
-                                    <small>Le lancement des Journées Nationales de la Citoyenneté Active JCI ...</small>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-            <br><br>
+            <br>
             <div class="row">
                 <div class="col-md-4">
                     <h2>Qui sommes-nous ?</h2>
@@ -86,23 +27,21 @@
                 </div>
 
             </div>
-            </div>
         </div>
-        
-
+       
     </footer>
     <div class="copy">
             <div class="container">
                 <a href="https://www.smarteyeapps.com/">2022 &copy; Tous droits réservés | JCI Abidjan Ivoire</a>
                 
-                <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-        </span>
-
+                    <span>
+                    <a><i class="fab fa-github"></i></a>
+                    <a><i class="fab fa-google-plus-g"></i></a>
+                    <a><i class="fab fa-pinterest-p"></i></a>
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-facebook-f"></i></a>
+                </span>
+            </div>    
 
     </div>
 

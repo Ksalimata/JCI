@@ -38,4 +38,9 @@ class FD extends CI_Controller {
 		$this->load->view('commun/archives');
 		
 	}
+	public function agendaFD()
+	{
+		$this->load->view('commun/agendaCACE');
+		
+	}
 }

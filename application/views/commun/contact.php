@@ -83,6 +83,7 @@
                                         <option value="P">President</option>
                                         <option value="M">Menbre</option>
                                         <option value="MP">Membre potentiel</option>
+                                        <option value="MP">Alumni\ Ancien membre</option>
                                     </select>
                                 </div>
                                 <?php echo form_error('role', '<span class="text-danger">','</span>'); ?>

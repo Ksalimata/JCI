@@ -38,4 +38,9 @@ class CL extends CI_Controller {
 		$this->load->view('commun/archives');
 		
 	}
+	public function agendaCL()
+	{
+		$this->load->view('commun/agendaCACE');
+		
+	}
 }
