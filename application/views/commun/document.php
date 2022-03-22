@@ -36,12 +36,12 @@
 			
 			
 			<br><br><br>
-			<div class="col-sm-12">
-				<h2 style="text-align:center">Liste des documents officiels</h2>
+			<div class="col-sm-12"><br><br>
+				<h2 style="text-align:center">Liste des documents officiels</h2><br><br>
 				<table class="table table-bordered table-striped">
 					<thead>
 						<tr>
-							<th>N</th>
+							<!-- <th>N</th> -->
 							<th>Nom</th>
 							<th>Description</th>
 							<th>Telecharger</th>
@@ -52,7 +52,7 @@
 						foreach($files as $file){
 							?>
 							<tr>
-								<td><?php echo $file->id; ?> </td>
+								<!-- <td><?php //echo $file->id; ?> </td> -->
 								<td><?php echo $file->filename; ?> </td>
 								<td><?php echo $file->description; ?> </td>
 								<td><center><a href="<?php echo base_url().'files/download/'.$file->id; ?>" class="btn btn-success btn-sm"><i class="fa fa-download"></i></a></center></td>

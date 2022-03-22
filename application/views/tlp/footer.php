@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <center><h2>Evènements récents</h2></center>
+                    <center><h1 style="color: white;">Evènements récents</h1></center><br>
                     <div class="blog-row row">
                         <div class="col-md-3 col-sm-6">
                             <div class="single-blog">

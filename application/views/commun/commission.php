@@ -138,9 +138,9 @@
                                 <img src="<?=base_url(); ?>assets/images/avatar.jpeg" alt="" style="height: 241px;width: 100%;">
                             </figure>
                             <div class="blog-detail">
-                                    <h5>
+                                    <h4>
                                         <center><a href="<?php echo site_url('Accueil/communo');?>">Directeur Adjoint CACE</a></center>
-                                    </h5>
+                                    </h4>
                             </div>
                                                        
                         </div>

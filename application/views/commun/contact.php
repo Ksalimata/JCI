@@ -38,12 +38,12 @@
                             <div class="row cont-row">
                                 <div  class="col-sm-4"><label>Nom & Prenoms </label><span>:</span></div>
                                 <div class="col-sm-4"><input type="text" placeholder="Entrez votre nom" name="name" class="form-control input-sm"  ></div>
-                                <div class="col-sm-4"><input type="text" placeholder="Entrez votre prenom" name="pname" class="form-control input-sm"  ></div>
+                                <div class="col-sm-4"><input type="text" placeholder="Entrez votre prenom" name="pname" class="form-control input-sm"  required></div>
                                 <?php echo form_error('pname', '<span class="text-danger">','</span>'); ?>
                             </div>
                             <div  class="row cont-row">
                                 <div  class="col-sm-4"><label>Email</label><span>:</span></div>
-                                <div class="col-sm-8"><input type="text" name="email" placeholder="Email" class="form-control input-sm"  ></div>
+                                 <div class="col-sm-8"><input type="text" name="email" placeholder="email" class="form-control input-sm"  ></div>
                                 <?php echo form_error('email', '<span class="text-danger">','</span>'); ?>
                             </div>
                             <div  class="row cont-row">
@@ -58,7 +58,7 @@
                             </div>
                             <div  class="row cont-row">
                                 <div  class="col-sm-4"><label>Profession</label><span>:</span></div>
-                                <div class="col-sm-8"><input type="text" name="profession" placeholder="Profession" class="form-control input-sm"  ></div>
+                                <div class="col-sm-8"><input type="text" name="profession" placeholder="Profession" class="form-control input-sm"  required></div>
                                 <?php echo form_error('profession', '<span class="text-danger">','</span>'); ?>
                             </div>
                             <div  class="row cont-row">
@@ -89,7 +89,7 @@
                             </div>
                             <div  class="row cont-row">
                                 <div  class="col-sm-4"><label>Mot de passe</label><span>:</span></div>
-                                <div class="col-sm-8"><input type="password" name="password" placeholder="Mot de passe" class="form-control input-sm"  >
+                                <div class="col-sm-8"><input type="password" name="password" placeholder="Mot de passe" class="form-control input-sm"  required>
                                     <span >Le mot de passe doit être composé : <br> d'au moins une majuscule<br>d'au moins une minuscule<br>d'au moins un chiffre<br>d'au moins un caractère spécial<br>doit être long de 8 caractères au moins </span>
                                 </div><br>
 
@@ -98,7 +98,7 @@
 
                             <div  class="row cont-row">
                                 <div  class="col-sm-4"><label>Confirmer Mot de passe</label><span>:</span></div>
-                                <div class="col-sm-8"><input type="password" name="cpassword" placeholder="Confirme Mot de passe" class="form-control input-sm"  ></div>
+                                <div class="col-sm-8"><input type="password" name="cpassword" placeholder="Confirme Mot de passe" class="form-control input-sm" required ></div>
                                 <?php echo form_error('cpassword', '<span class="text-danger">','</span>'); ?>
                             </div>
                             

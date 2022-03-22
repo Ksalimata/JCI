@@ -172,9 +172,9 @@
         						<img src="<?=base_url(); ?>assets/images/action.png" alt="" style="height: 241px;width: 100%;">
         					</figure>
         					<div class="blog-detail">
-        							<h5>
-										<center><a href="<?php echo site_url('Accueil/communo');?>">Actions Communautaires et Entrepreneuriat</a></center>
-									</h5>
+        							<h4>
+										<center><a href="<?php echo site_url('Accueil/communo');?>" style="font-size: 18px;">Actions Communautaires et Entrepreneuriat</a></center>
+									</h4>
         					</div>
         					
         					

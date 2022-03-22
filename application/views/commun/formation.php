@@ -42,7 +42,7 @@
                             </figure>
                             <div class="blog-detail">
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/communo');?>">Réunion de Commission</a></center>
+                                        <center><a href="<?php echo site_url('FD/reunion');?>">Réunion de Commission</a></center>
                                     </h4>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/formation');?>">Projet</a></center>
+                                        <center><a href="<?php echo site_url('FD/projetx');?>">Projet</a></center>
                                     </h4>
                                 
                             </div>
@@ -69,7 +69,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/loisirs');?>">Archives</a></center>
+                                        <center><a href="<?php echo site_url('FD/archive');?>">Archives</a></center>
                                     </h4>
                             </div>
                         </div>

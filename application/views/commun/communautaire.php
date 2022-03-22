@@ -43,7 +43,7 @@
                             </figure>
                             <div class="blog-detail">
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/communo');?>">Réunion de Commission</a></center>
+                                        <center><a href="<?php echo site_url('CACE/reunion');?>">Réunion de Commission</a></center>
                                     </h4>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/formation');?>">Projet</a></center>
+                                        <center><a href="<?php echo site_url('CACE/projet');?>">Projet</a></center>
                                     </h4>
                                 
                             </div>
@@ -70,7 +70,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/loisirs');?>">Archives</a></center>
+                                        <center><a href="<?php echo site_url('CACE/archive');?>">Archives</a></center>
                                     </h4>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                             </figure>
                             <div class="blog-detail">
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/communo');?>">Agenda</a></center>
+                                        <center><a href="<?php echo site_url('CACE/agendaCACE');?>">Agenda</a></center>
                                     </h4>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/formation');?>">Evènements</a></center>
+                                        <center><a href="<?php echo site_url('Accueil/event');?>">Evènements</a></center>
                                     </h4>
                                 
                             </div>
