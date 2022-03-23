@@ -3,6 +3,9 @@
  * 
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Writer\Xls;
 
 class Accueil extends CI_Controller {
 	 public $membre;
@@ -84,6 +87,60 @@ class Accueil extends CI_Controller {
 	    }
     }
     
+    public function add_file()
+    {
+        
+        $this->form_validation->set_rules('FilExcel', 'filExcel', 'required');
+
+        $file = $_FILES['filExcel'];
+        $file_mimes = array('text/x-comma-separated-values', 'text/comma-separated-values', 'application/octet-stream', 'application/vnd.ms-excel', 'application/x-xls', 'text/x-xls', 'text/xls', 'application/xls', 'application/excel', 'application/vnd.msexcel', 'text/plain', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+        if(isset($_FILES['filExcel']['name']) && in_array($_FILES['filExcel']['type'], $file_mimes)) 
+        {
+          $produit_ids_control = $this->session->userdata('information');
+          $entit = $produit_ids_control[0]['produit_ids_control'];
+          $entity = explode("|", $entit);
+          $id_user = $this->session->userdata('id_user');
+
+          $this->form_validation->set_rules('categorie', 'Categorie');
+
+          $categorie = $this->input->post('categorie');
+
+          $arr_file = explode('.', $_FILES['filExcel']['name']);
+          $extension = end($arr_file);
+
+          if('xls' == $extension) 
+          {
+            $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
+          } else 
+          {
+            $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+          }
+
+          $spreadsheet = $reader->load($_FILES['filExcel']['tmp_name']);
+          $sheetData = $spreadsheet->getActiveSheet()->toArray();
+
+          if(!empty($sheetData)) 
+          {
+          		for ($i=1; $i<count($sheetData); $i++) 
+            {
+              //$categorie = $categorie;
+              $ref = $sheetData[$i][0];
+              $label = $sheetData[$i][1];
+              $barcode = $sheetData[$i][2];
+              $description = $sheetData[$i][3];
+              $price_achat = $sheetData[$i][4];
+              $price_ht = $sheetData[$i][5];
+              $tva = $sheetData[$i][6];
+              $price_ttc = $sheetData[$i][7];
+              $stock = $sheetData[$i][8];
+              $seuil = $sheetData[$i][9];
+
+              //inserer dans la table
+            }
+          }
+  		}
+	}
 	public function commission()
 	{
 
