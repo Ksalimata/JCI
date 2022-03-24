@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/slider/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/slider/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url(); ?>assets/css/style.css" />
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  
     <style type="text/css">
         body{
            font-family: "Opificio" !important;

@@ -12,9 +12,18 @@ class Membre_model extends CI_Model{
     }
 
 
-    public function insert_item($data)
+    public function insert_membre($data)
     {    
         return $this->db->insert('membre', $data);
+    }
+    public function insert_senateur($data)
+    {    
+        return $this->db->insert('pastpresident', $data);
+    }
+    public function liste_senateur()
+    {    
+        $query = $this->db->get('pastpresident');
+        return $query->result(); 
     }
 }
 
