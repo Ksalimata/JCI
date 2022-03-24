@@ -30,6 +30,16 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+             <div class="gallery-filter d-none d-sm-block">
+                <button class="btn btn-default filter-button active" data-filter="membre">C.E.L.</button>
+                <button class="btn btn-default filter-button" data-filter="presse"> C.D.L.</button>
+                <button class="btn btn-default filter-button" data-filter="pastP"> COMMISSION</button>
+
+            </div> 
+        </div>
+    </div>
 
 	<h1>Archives</h1>
 	<?php $this->load->view('tlp/footer'); ?>

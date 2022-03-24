@@ -42,9 +42,9 @@
 
                      <div class="gallery-filter d-none d-sm-block">
                         <button class="btn btn-default filter-button" data-filter="all">Galerie</button>
-                         <button class="btn btn-default filter-button" data-filter="formation">Formation</button>
-                        <button class="btn btn-default filter-button" data-filter="loisir">Loisir</button>
-                        <button class="btn btn-default filter-button" data-filter="action"> Actions</button>
+                         <button class="btn btn-default filter-button" data-filter="formation">FD</button>
+                        <button class="btn btn-default filter-button" data-filter="loisir">CLA</button>
+                        <button class="btn btn-default filter-button" data-filter="action"> CACE</button>
                     </div> 
                     <br/>
 

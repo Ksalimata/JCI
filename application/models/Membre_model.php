@@ -25,6 +25,25 @@ class Membre_model extends CI_Model{
         $query = $this->db->get('pastpresident');
         return $query->result(); 
     }
+    public function ajout_membre($data)
+    {    
+        return $this->db->insert('membreJCI', $data);
+    }
+    public function liste_membre()
+    {    
+        $query = $this->db->get('membreJCI');
+        return $query->result(); 
+    }
+    public function ajout_presse($data)
+    {    
+        return $this->db->insert('presse', $data);
+    }
+    public function liste_presse()
+    {    
+        $query = $this->db->get('presse');
+        return $query->result(); 
+    }
+    
 }
 
  ?>

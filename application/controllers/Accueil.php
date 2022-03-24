@@ -29,118 +29,137 @@ class Accueil extends CI_Controller {
 	}
 	public function add_new()
 	{
-            $email = $this->input->post("email");
+      $email = $this->input->post("email");
             
 			$this->db->set('email', $email)
 						->insert('ci_newsletter');
 	 	    $insert =$this->db->insert_id();
 
-            //$insert = $this->db->insert_id();
-            redirect('Accueil');
-    }
-    public function login()
+      //$insert = $this->db->insert_id();
+      redirect('Accueil');
+  }
+  public function login()
+  {
+  	$email    = $this->input->post('email',TRUE);
+    $password = md5($this->input->post('password',TRUE));
+    $validate = $this->login_model->validate($email,$password);
+    if($validate->num_rows() > 0)
     {
-    	$email    = $this->input->post('email',TRUE);
-	    $password = md5($this->input->post('password',TRUE));
-	    $validate = $this->login_model->validate($email,$password);
-	    if($validate->num_rows() > 0)
-	    {
-	        $data  = $validate->row_array();
-	        $nom  = $data['nom'];
-	        $prenom = $data['prenom'];
-	        $email = $data['email'];
-	        $phone = $data['phone'];
-	        $role = $data['role'];
-	        $olm = $data['olm'];
-	        $profession = $data['profession'];
-	        $role_fk = $data['role_fk'];
+        $data  = $validate->row_array();
+        $nom  = $data['nom'];
+        $prenom = $data['prenom'];
+        $email = $data['email'];
+        $phone = $data['phone'];
+        $role = $data['role'];
+        $olm = $data['olm'];
+        $profession = $data['profession'];
+        $role_fk = $data['role_fk'];
+        $membre_etat = $data['membre_etat'];
 
-	        $sesdata = array(
-	            'nom'  => $nom,
-	            'prenom'  => $prenom,
-	            'email'     => $email,
-	            'phone'     => $phone,
-	            'role'     => $role,
-	            'olm'     => $olm,
-	            'profession'     => $profession,
-	            'role_fk'     => $role_fk,
-	            'logged_in' => TRUE
-	        );
-	        $this->session->set_userdata($sesdata);
 
-	        // access login for admin
-	        if($role_fk === '1')
-	        {
-	            redirect('Accueil');
-	 
-	        }elseif($role_fk === '2')
-	        {
-	            redirect('Accueil');
-	 
-	        }else
-	        {
-	            redirect('Accueil');
-	        }
-	    }else
-	    {
-	        $this->session->set_flashdata('msg','Mail ou Password Incorrect');
-	        redirect('Accueil');
-	    }
-    }
-    
-    public function add_file()
-    {
-        
-        $this->form_validation->set_rules('upload', 'Upload', 'required');
+        $sesdata = array(
+            'nom'  => $nom,
+            'prenom'  => $prenom,
+            'email'     => $email,
+            'phone'     => $phone,
+            'role'     => $role,
+            'olm'     => $olm,
+            'profession'     => $profession,
+            'role_fk'     => $role_fk,
+            'etat'     => $membre_etat,
+            'logged_in' => TRUE
+        );
 
-        $file = $_FILES['upload'];
-        $file_mimes = array('text/x-comma-separated-values', 'text/comma-separated-values', 'application/octet-stream', 'application/vnd.ms-excel', 'application/x-xls', 'text/x-xls', 'text/xls', 'application/xls', 'application/excel', 'application/vnd.msexcel', 'text/plain', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        $this->session->set_userdata($sesdata);
 
-        if(isset($_FILES['upload']['name']) && in_array($_FILES['upload']['type'], $file_mimes)) 
+        // access login for admin
+        if(($role_fk === '1')&&($membre_etat=="A"))
         {
-          
-          $arr_file = explode('.', $_FILES['upload']['name']);
-          $extension = end($arr_file);
+            redirect('Accueil');
+ 
+        }elseif($role_fk === '2')
+        {
+        	$this->session->sess_destroy();
+    			redirect('Accueil');
+ 
+        }else
+        {
+        	$this->session->sess_destroy();
+          redirect('Accueil');
+        }
+    }else
+    {
+        $this->session->set_flashdata('msg','Mail ou Password Incorrect');
+        redirect('Accueil');
+    }
+  }
+    
+  public function add_file()
+  {
+      
+      $this->form_validation->set_rules('upload', 'Upload', 'required');
 
-          if('xls' == $extension) 
+      $file = $_FILES['upload'];
+      $file_mimes = array('text/x-comma-separated-values', 'text/comma-separated-values', 'application/octet-stream', 'application/vnd.ms-excel', 'application/x-xls', 'text/x-xls', 'text/xls', 'application/xls', 'application/excel', 'application/vnd.msexcel', 'text/plain', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+      if(isset($_FILES['upload']['name']) && in_array($_FILES['upload']['type'], $file_mimes)) 
+      {
+        
+        $arr_file = explode('.', $_FILES['upload']['name']);
+        $extension = end($arr_file);
+
+        if('xls' == $extension) 
+        {
+          $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
+        } else 
+        {
+          $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+        }
+
+        $spreadsheet = $reader->load($_FILES['upload']['tmp_name']);
+        $sheetData = $spreadsheet->getActiveSheet()->toArray();
+
+        //exit();
+        if(!empty($sheetData)) 
+        {
+        		for ($i=1; $i<count($sheetData); $i++) 
           {
-            $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
-          } else 
-          {
-            $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+            //$categorie = $categorie;
+            /*LISTE SENATEURS
+            $mandat = $sheetData[$i][0];
+            $status = $sheetData[$i][1];
+            $nomprenom = $sheetData[$i][2];
+            $phone = $sheetData[$i][3];
+            $email = $sheetData[$i][4];*/
+
+            //liste membres
+            $nomprenom = $sheetData[$i][1];
+            $phone = $sheetData[$i][2];
+            $annee = $sheetData[$i][3];
+
+            /*$designation = $sheetData[$i][1];
+            $type = $sheetData[$i][2];
+            $responsable = $sheetData[$i][3];
+            $qualite = $sheetData[$i][4];
+            $point = $sheetData[$i][5];
+            $contact = $sheetData[$i][6];*/
+
+           
+            $data = array(
+			            'nomPrenom' => $nomprenom,
+			            'telephone' => $phone,
+			            'anneeIntronisation' => $annee
+			        );
+
+							//	$insert =$this->membre->insert_senateur($data);
+						$insert =$this->membre->ajout_membre($data);
+						var_dump($insert);
+		              //inserer dans la table
+		              //var_dump($mandat,$status,$nomprenom,$phone,$email);
           }
-
-          $spreadsheet = $reader->load($_FILES['upload']['tmp_name']);
-          $sheetData = $spreadsheet->getActiveSheet()->toArray();
-
-          //exit();
-          if(!empty($sheetData)) 
-          {
-          		for ($i=1; $i<count($sheetData); $i++) 
-            {
-              //$categorie = $categorie;
-              $mandat = $sheetData[$i][0];
-              $status = $sheetData[$i][1];
-              $nomprenom = $sheetData[$i][2];
-              $phone = $sheetData[$i][3];
-              $email = $sheetData[$i][4];
-             
-              $data = array(
-				            'mandat' => $mandat,
-				            'status' => $status,
-				            'nomPrenom' => $nomprenom,
-				            'telephone' => $phone,
-				            'email' => $email
-				        );
-
-				$insert =$this->membre->insert_senateur($data);
-				var_dump($insert);
-              //inserer dans la table
-              //var_dump($mandat,$status,$nomprenom,$phone,$email);
-            }
-          }
-  		}
-	}
+        }
+		  }
+  }
 	public function commission()
 	{
 
@@ -161,9 +180,12 @@ class Accueil extends CI_Controller {
 
 	public function annuaire()
 	{
-		$data['listePP'] = $this->membre_model->liste_senateur();
+			$data['listePP'] = $this->membre_model->liste_senateur();
+			$data['listeMembre'] = $this->membre_model->liste_membre();
+			$data['listePresse'] = $this->membre_model->liste_presse();
+
             
-        $this->load->view('commun/annuaire',$data);
+      $this->load->view('commun/annuaire',$data);
 	}
 
 	public function propos()
@@ -222,34 +244,37 @@ class Accueil extends CI_Controller {
 
                         if ((preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $password))&&(preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $rpassword)))
                         {
-                        	$data = array(
-				            'nom' => $_POST['name'],
-				            'prenom' => $_POST['pname'],
-				            'email' => $_POST['email'],
-				            'phone' => $_POST['phone'],
-				            'fonction' => $_POST['fonction'],
-				            'profession' => $_POST['profession'],
-				            'role' => $_POST['role'],
-				            'olm' => $_POST['olm'],
-				            'password' => md5($password)
-				        );
+                        	$data = array
+                        	(
+									            'nom' => $_POST['name'],
+									            'prenom' => $_POST['pname'],
+									            'email' => $_POST['email'],
+									            'phone' => $_POST['phone'],
+									            'fonction' => $_POST['fonction'],
+									            'profession' => $_POST['profession'],
+									            'role' => $_POST['role'],
+									            'olm' => $_POST['olm'],
+									            'password' => md5($password),
+									            'date_create', date("Y-m-d H:i:s"),
+															'etat', "A"
+									        );
 
-				           $insert =$this->membre->insert_membre($data);
-				           if ($insert)
-				           {
-				           		$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
-				           		redirect(base_url('Accueil/contact'));
-				           	
-				           }else
-				           {
-				           		$this->session->set_flashdata('error', "Erreur lors de l'insertion");
-				           		redirect(base_url('Accueil/contact'));
-				           }
+								           $insert =$this->membre->insert_membre($data);
+								           if ($insert)
+								           {
+								           		$this->session->set_flashdata('succes', 'Insertion effectué avec succes');
+								           		redirect(base_url('Accueil/contact'));
+								           	
+								           }else
+								           {
+								           		$this->session->set_flashdata('error', "Erreur lors de l'insertion");
+								           		redirect(base_url('Accueil/contact'));
+								           }
                         }
                         else
                         {
                         	$this->session->set_flashdata('error', "Format incorrect");
-				           	redirect(base_url('Accueil/contact'));
+				           				redirect(base_url('Accueil/contact'));
                         }
         	    	}else
         	    	{

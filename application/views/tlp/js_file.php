@@ -9,7 +9,7 @@
 
 <script type="text/javascript">
 	$(document).ready( function () {
-	    $('#table_id').DataTable({
+	    $('.table_id').DataTable({
 		  "language": {
 		    "sProcessing": "Traitement en cours ...",
 		    "sLengthMenu": "Afficher _MENU_ lignes",
