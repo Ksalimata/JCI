@@ -125,7 +125,7 @@
                                       </div>
                                 </li>   
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('Files');?>">Document</a>
+                                    <a class="nav-link" href="<?php echo site_url('Files');?>">Document d'activité</a>
                                 </li>   
                             </ul>
 

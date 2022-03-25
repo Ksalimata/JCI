@@ -85,21 +85,22 @@
             </div>
     </section>
 
-    <section class="our-blog" style="background-color: #edf1f5;">
-            <div class="container">
+    <section class="our-blog" style="background-color: #edf1f5;margin-top: -5%">
+            <div class="row">
                 <div class="row session-title">
                     <!-- <p>Take a look at what people say about US </p> -->
                 </div>
-                <div class="blog-row row" style="margin-top: -8%;">
-                    <div class="col-md-12 col-sm-12">
+
+                <div class="blog-row row" style="">
+                    <div class="col-md-6 col-sm-12" style="max-width: 57%;">
                         <div class="single-blog">
                             <div class="blog-detail">
-                                    <h4>
+                                    <h2>
                                         <center><a href="<?php echo site_url('FD/agendaFD');?>">Programme d'activité</a></center>
-                                    </h4>
+                                    </h2>
                             </div>
                             <figure>
-                                <table class="table table-bordered table-striped">
+                                <table class="table table-bordered table-striped table_id">
                                     <thead>
                                         <tr>
                                             <th>NOM DU PROJET</th>
@@ -145,7 +146,7 @@
                             
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6" style="margin-left: 10%;">
                         <div class="single-blog">
                             <figure>
                                 <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
@@ -158,7 +159,7 @@
                                 
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     
                 </div>
             </div>

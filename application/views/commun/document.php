@@ -38,7 +38,7 @@
 			<br><br><br>
 			<div class="col-sm-12"><br><br>
 				<h2 style="text-align:center">Liste des documents officiels</h2><br><br>
-				<table class="table table-bordered table-striped">
+				<table class="table table-bordered table-striped table_id">
 					<thead>
 						<tr>
 							<!-- <th>N</th> -->

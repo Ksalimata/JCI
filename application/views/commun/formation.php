@@ -84,132 +84,22 @@
             </div>
     </section>
 
-    <section class="our-blog" style="background-color: #edf1f5;">
-            <div class="container">
+    <section class="our-blog" style="background-color: #edf1f5;margin-top: -5%">
+            <div class="row">
                 <div class="row session-title">
                     <!-- <p>Take a look at what people say about US </p> -->
                 </div>
-                <div class="blog-row row" style="margin-top: -8%;">
+                <div class="blog-row row" style="">
                     <div class="col-md-12 col-sm-12">
                         <div class="single-blog">
-                            <!-- <figure>
-                                <table class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Jour</th>
-                                            <th>Activités</th>
-                                            <th>Lieu</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        
-                                            <tr><th colspan="3" style="text-align:center;">NOVEMBRE 2021</th></tr>
-                                            <tr>
-                                                <td>Mardi 08</td>
-                                                <td>Rentrée des classes</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 23</td>
-                                                <td>Première réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">DECEMBRE 2021</th></tr>
-                                            <tr>
-                                                <td>Mardi 07</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 21</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">JANVIER 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 11</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                
-                                                <td>Mardi 25</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">FEVRIER 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 08</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 22</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">MARS 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 08</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">AVRIL 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 05</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 19</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">MAI 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 03</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 17</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">JUIN 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 14</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 28</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr><th colspan="3" style="text-align:center;">JUILLET 2022</th></tr>
-                                            <tr>
-                                                <td>Mardi 12</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mardi 19</td>
-                                                <td>Réunion de commission</td>
-                                                <td>Siège Abidjan-Ivoire</td>
-                                            </tr>
-                                            
-                                    </tbody>
-                                </table>
-                                
-                            </figure> -->
+                            
                             <div class="blog-detail">
-                                    <h4>
+                                    <h2>
                                         <center><a href="<?php echo site_url('FD/agendaFD');?>">Programme d'activité</a></center>
-                                    </h4>
+                                    </h2>
                             </div>
                             <figure>
-                                <table class="table table-bordered table-striped">
+                                <table class="table table-bordered table-striped table_id">
                                     <thead>
                                         <tr>
                                             <th>DATE</th>

@@ -69,14 +69,19 @@
                 <div class="row">
                 
                     <div class="gallery-filter d-none d-sm-block">
-                        <button class="btn btn-default filter-button active" data-filter="membre">Membre</button>
+                        <button class="btn btn-default filter-button " data-filter="membre">Membre</button>
                         <button class="btn btn-default filter-button" data-filter="presse"> Presse</button>
                         <button class="btn btn-default filter-button" data-filter="pastP"> Past President</button>
 
                     </div> 
                     <br/>
 
-                        <div class="gallery_product col-lg-12 col-md-12 col-sm-12 col-xs-12 filter  membre" style="display:none">
+                        <div class="gallery_product col-lg-12 col-md-12 col-sm-12 col-xs-12 filter  membre" id="members">
+                            <div class="blog-detail">
+                                    <h2>
+                                        <center><a>Membre JCI</a></center>
+                                    </h2>
+                            </div>
                             <table  class="display table_id">
                                 <thead>
                                     <tr>
@@ -99,6 +104,11 @@
                             </table>
                         </div>
                         <div class="gallery_product  col-md-12  filter presse" style="display:none">
+                            <div class="blog-detail">
+                                    <h2>
+                                        <center><a>Presse</a></center>
+                                    </h2>
+                            </div>
                              <table  class="display table_id">
                                 <thead>
                                     <tr>
@@ -125,6 +135,11 @@
                             </table>
                         </div>
                         <div class="gallery_product  col-md-12 filter pastP" style="display:none">
+                            <div class="blog-detail">
+                                    <h2>
+                                        <center><a>Past Président</a></center>
+                                    </h2>
+                            </div>
                             <table class="display table_id">
                                 <thead>
                                     <tr>
