@@ -35,6 +35,72 @@
             </div>
         </div>
     </div>
+    <section class="our-blog" style="background-color: #edf1f5;">
+            <div class="container">
+                <div class="row">
+                    <h1>I.  PRESENTATION DE LA COMMISSION</h1> 
+
+                        <p>La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p>
+
+                        <li>  - Formations internes dénommé IVOIRE TRAINING ;</li><br>
+                        <li>  - Formations publiques ; </li><br>
+                        <li>  - Séminaire (s) professionnel (s)</li><br>
+                        <li>  - Académie des Membres Potentiels.</li><br>
+                       <p> Pour cette mandature, cette commission est structurée comme suit :</p><br>
+
+                       <table class="table table-bordered table-striped table_id">
+                            <thead>    
+                                <tr>
+                                    <th>Fonction</th>
+                                    <th>Nom et Prénoms</th>
+                                    <th>Contact</th>
+                                    <th>E-mail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    <tr>
+                                        <td>Vice-président assigné</td>
+                                        <td>  KONAN Alex Fréjus </td>
+                                        <td>07 49 35 22 88</td>
+                                        <td>alexfrejus@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur de commission</td>
+                                        <td>BAMENOU Candicio Gerald</td>
+                                        <td> 07 09 84 45 70</td>
+                                        <td>candiciogerard@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur Adjointe de commission</td>
+                                        <td>N’DO Cyrille</td>
+                                        <td>0504322895</td>
+                                        <td>ndeltsine@gmail.com</td>
+
+                                    </tr>
+                            </tbody>
+                       </table> 
+                    <h2> II.  Cahier de charges de la commission </h2>
+
+                    <p>•   Objectifs généraux
+                        Etudier la faisabilité de chaque projet en relation avec le Vice – président aux opérations, et le réaliser suivant le cadre JCI du citoyen actif (enquête, analyse, planification, action, évaluation et suivi) ;
+                        Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p><br>
+
+                    <p>•   Objectifs spécifiques <br>
+
+                        Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;<br>
+                        Contribuer à la mise en œuvre de la stratégie de croissance quantitative et qualitative durable de l’effectif de l’organisation ;<br>
+                        Développer et renforcer chez les membres des aptitudes en leadership ;<br>
+                        S’équiper en matériels (un vidéoprojecteur, un écran de projection, paperboard…).</p><br><br>
+
+                     <p>Le savoir étant l’unique bien dont personne ne peut nous dépouiller, nous invitons tous les membres et membres potentiels à participer activement à la mise en œuvre de ce programme afin qu’il connaisse un succès. Car notre motivation et notre engagement feront de ce programme une réussite.
+                        Ainsi, quel que soit la position que l’on occupe ou le rôle que l’on joue au sein de notre organisation, il importe que l’on garde à l’esprit que seule l’action transforme la pensée et la parole en réalité. C'est en nous unissons que nous ferons des exploits.
+                        Pour notre part, nous vous promettons d’accomplir avec dynamisme et abnégation la mission qui nous a été assignée pour cette mandature 2022.
+                        </p>   
+           
+
+                </div>
+            </div>
+    </section>            
 	<section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row session-title">
@@ -90,7 +156,7 @@
                     <!-- <p>Take a look at what people say about US </p> -->
                 </div>
                 <div class="blog-row row" style="">
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-8">
                         <div class="single-blog">
                             
                             <div class="blog-detail">
@@ -213,7 +279,7 @@
                             
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
                                 <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
@@ -226,7 +292,7 @@
                                 
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     
                 </div>
             </div>

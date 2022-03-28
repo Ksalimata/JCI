@@ -35,6 +35,67 @@
             </div>
         </div>
     </div>
+    <section>
+            <div class="container">  
+                <div class="row">  
+                       <h1> I.  Présentation de la commission </h1>
+                <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p>
+
+                        <table class="table table-bordered table-striped table_id">
+                            <thead>    
+                                <tr>
+                                    <th>Fonction</th>
+                                    <th>Nom et Prénoms</th>
+                                    <th>Contact</th>
+                                    <th>E-mail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    <tr>
+                                        <td>Vice-président assigné</td>
+                                        <td>  SORO Tcherignimin Seydou </td>
+                                        <td>07 48 27 48 37</td>
+                                        <td>tcherigniminseydousoro@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur de commission</td>
+                                        <td>N’GUESSAN Saint Wilfried</td>
+                                        <td> 07 09 26 14 80</td>
+                                        <td>saintwilfried03@gmal.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur Adjointe de commission</td>
+                                        <td>AGOH Thierry </td>
+                                        <td>07 57 34 48 67 </td>
+                                        <td>jeanmichelagoh@gmail.com</td>
+
+                                    </tr>
+                            </tbody>
+                        </table> 
+                <h2>II. Rappel du cahier de charge de la Commission</h2>
+<p>La commission culture Loisirs et Anglais est chargée du développement culturel et de la promotion de la langue anglaise auprès des membres de l’OLM.</p><br> 
+  <p> Le volet Cultures</p><br> 
+<p>L’objectif de cet axe sera non seulement de créer un cadre de partage d’expérience de culture générale, mais aussi de promouvoir la culture ivoirienne en allant à la rencontre de celle des peuples du monde entier en général, de l’Afrique en particulier et plus spécifiquement de celle des communautés de la CEDEAO.</p><br>   
+<p>Les objectifs spécifiques de ces réunions seront de :</p><br>    
+•   Partager et renforcer les capacités des membres en termes de culture générale ;<br> 
+•   Promouvoir l’image de la JCI Abidjan Ivoire ;<br>   
+•   Promouvoir la culture ivoirienne ;<br>  
+•   Contribuer à l’intégration des autres peuples en Côte d’Ivoire. <br>    
+
+        -   Le volet Loisirs <br>   
+<p>Dans cet axe, il sera question d’échanger avec les créateurs d’œuvre d’art et de l’esprit, spécialistes et manager d’entreprises pourvoyeuses de loisirs et de divertissements. Les domaines pressentis sont les suivants : cinéma/théâtre, spectacle/concert, sport, high-tech, jeux vidéo, tourisme, danse/musique/chant, lecture/écriture de roman, artisans manuels, actions humanitaires, radio/télévision, cuisine/pâtisserie, mannequinat, musée, photographie, peinture, etc.</p>
+Les objectifs spécifiques de ces réunions sont :
+•   Promouvoir l’image de la JCI Abidjan Ivoire ;
+•   Promouvoir les loisirs proposés au sein de la JCI Abidjan Ivoire ;
+
+        -   Le volet anglais <br>   
+<p>Ce volet s’attellera à redonner le goût de la langue anglaise à nos membres et membres potentiels, à renforcer leur capacité, en les amenant à prendre conscience de la nécessité de cette langue dans nos projets actuels et futures.</p> <br>  
+
+        
+ 
+                </div>
+            </div>   
+    </section>
 	<section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row session-title">
@@ -87,7 +148,7 @@
             <div class="row">
                 
                 <div class="blog-row row" style="">
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-8">
                         <div class="single-blog">
                             <div class="blog-detail">
                                     <h2>
@@ -136,7 +197,7 @@
                             
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
                                 <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
@@ -149,7 +210,7 @@
                                 
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     
                 </div>
             </div>

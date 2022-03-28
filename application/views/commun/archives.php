@@ -27,7 +27,7 @@
                     <li> <a href="#"><i class="fas fa-home"></i> Accueil</a></li>
                     <li><i class="fas fa-angle-double-right"></i> Archives</li>
                 </ul> -->
-            </div>
+            </div>""
         </div>
     </div>
     <div class="container">

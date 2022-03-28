@@ -36,6 +36,80 @@
             </div>
         </div>
     </div>
+    <section>
+        <div class="container">
+            <div class="row"> 
+                   <h1> I.  PRESENTATION DE LA COMMISION ACE 2022 </h1>
+                        <p> Pour la mandature 2022, notre commission est composée de :</p>
+                        <table class="table table-bordered table-striped table_id">
+                            <thead>    
+                                <tr>
+                                    <th>Fonction</th>
+                                    <th>Nom et Prénoms</th>
+                                    <th>Contact</th>
+                                    <th>E-mail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    <tr>
+                                        <td>Vice-président assigné</td>
+                                        <td>  MANGOU Victorien </td>
+                                        <td>(225)07 487 018 98</td>
+                                        <td>mangouvictorien@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur de commission (DC)</td>
+                                        <td>YEBOUA Mamadou</td>
+                                        <td>(225)07 574 982 09</td>
+                                        <td>yebnetwork@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Directeur Adjointe de commission</td>
+                                        <td>GNANZI Armel</td>
+                                        <td>(225)05 747 487 64</td>
+                                        <td>cstarmel@gmail.com</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>A determiner</td>
+                                        <td>A determiner</td>
+                                        <td>A determiner</td>
+                                        <td>A determiner</td>
+
+                                    </tr>
+                            </tbody>
+                       </table>
+
+                      <h4> a.   Fonctionnement de commission</h4><br>   
+
+<P>Pour le mandat 2022, nous avons instauré des rubriques innovantes en vue d’un impact remarquable de nos communautés respectives. Il s’agit de :</P><br>  
+   <p>-INSPIRATION TIME ;</p><br>  
+   <p>-ENTREPRENEURSHIP : (Jeune Preneur / Ivoire-Entrepreneur)</p><br>    
+
+<p>Remarques : toutes ces rubriques seront animées au cours de nos différentes réunions. Lesquelles sont organisées tous les lundis en quinze à partir de 18h30 minutes avec une durée d’une heure trente minutes (1h30min.) maximum.</p>
+
+<h4>b.Rubriques</h4><br>    
+
+<p>La commission Actions Communautaires et Entrepreneuriales, sur la base de sa dénomination sociale et de son cahier de charges, entend organiser des réunions avec des rubriques qui répondront à ses deux grands axes d’intervention. Les rubriques et actions proposées sont les suivantes :</p><br>    
+
+<p>   INSPIRATION TIME :</p><br>   
+<p>Cette rubrique se veut être une réponse au besoin de développement des aptitudes de leaders aux membres, membres potentiels. En effet, la rubrique <bold>‘’INSPIRATION TIME’’</bold> sera l’occasion pour « des cadres d’entreprise, des associations et groupements de jeunes, un acteur de développement communautaire » à aux réunions de commission pour inspirer les participants sur plusieurs sujets ou opportunités à travers des échanges avec d’autres organisations, entreprises et autres programmes spécialisés. En plus des invitations, il conviendra pour la commission d'organiser des sorties en entreprise (institutions, industries, …) en vue d'accentuer ou impulser la prise d'initiative du membre potentiels et membre actif.</p><br>   
+
+<p>   ENTREPRENEURSHIP :</p><br>    
+<p>Cette rubrique sera l’occasion pour les membres et membres potentiels de notre OLM de présenter des opportunités ou leurs produits au cours de nos réunions de commissions et des rencontres entre Jaycees. </p><br> 
+
+<bold>NB :</bold> Tous les responsables et membres de la Commission Actions Communautaires et Entrepreneuriales devront veiller au « respect scrupuleux » des consignes protocolaires de l’OLM Abidjan Ivoire (Dress Code, Port de Pin’s, Heure de démarrage et de fin des réunions, …etc.) lors des activités<br>  
+
+<p>Nous sommes engagés et prêt à affronter le terrain, dans la mesure de nos moyens, afin d’atteindre les objectifs du mandat.
+C’est pourquoi, nous disons tous d’une même et unique voix : <bold>« Let’s Be Impactful »</bold>
+Tel est le programme d’activités 2022 de la Commission Actions Communautaires et Entrepreneuriales (CACE) que nous vous soumettons pour adoption.</p>
+
+
+
+  
+            </div>   
+        </div>   
+    </section>
 	<section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row session-title">
@@ -92,7 +166,7 @@
                 </div>
 
                 <div class="blog-row row" style="">
-                    <div class="col-md-6 col-sm-12" style="max-width: 57%;">
+                    <div class="col-md-8">
                         <div class="single-blog">
                             <div class="blog-detail">
                                     <h2>
@@ -146,7 +220,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6" style="margin-left: 10%;">
+                    <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
                                 <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">

@@ -45,7 +45,7 @@
                                     </h4>
                             </div>
                             <figure>
-                                <table class="table table-bordered table-striped">
+                                <table class="table table-bordered table-striped table_id">
                                     <thead>
                                         <tr>
                                             <th>Jour</th>
