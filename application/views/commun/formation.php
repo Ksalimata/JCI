@@ -40,12 +40,15 @@
                 <div class="row">
                     <h1>I.  PRESENTATION DE LA COMMISSION</h1> 
 
-                        <p>La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p>
+                        <p>La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p> <br>
 
-                        <li>  - Formations internes dénommé IVOIRE TRAINING ;</li><br>
-                        <li>  - Formations publiques ; </li><br>
-                        <li>  - Séminaire (s) professionnel (s)</li><br>
-                        <li>  - Académie des Membres Potentiels.</li><br>
+                        <ul>
+                          <li><a href="">Formations internes dénommé IVOIRE TRAINING ;</a></li>
+                          <li><a href="">Formations publiques</a></li>
+                          <li><a href="">Séminaire (s) professionnel (s)</a></li>
+                          <li><a href="">Académie des Membres Potentiels.</a></li>
+                        </ul>
+                       
                        <p> Pour cette mandature, cette commission est structurée comme suit :</p><br>
 
                        <table class="table table-bordered table-striped table_id">
@@ -79,15 +82,16 @@
                                     </tr>
                             </tbody>
                        </table> 
+
                     <h2> II.  Cahier de charges de la commission </h2>
 
-                    <p>•   Objectifs généraux
-                        Etudier la faisabilité de chaque projet en relation avec le Vice – président aux opérations, et le réaliser suivant le cadre JCI du citoyen actif (enquête, analyse, planification, action, évaluation et suivi) ;
+                       <ul><li>Objectifs généraux</li></ul>
+                        <p>Etudier la faisabilité de chaque projet en relation avec le Vice – président aux opérations, et le réaliser suivant le cadre JCI du citoyen actif (enquête, analyse, planification, action, évaluation et suivi) ;
                         Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p><br>
 
-                    <p>•   Objectifs spécifiques <br>
+                      <ul><li>Objectifs spécifiques</li></ul> <br>
 
-                        Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;<br>
+                        <p> Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;<br>
                         Contribuer à la mise en œuvre de la stratégie de croissance quantitative et qualitative durable de l’effectif de l’organisation ;<br>
                         Développer et renforcer chez les membres des aptitudes en leadership ;<br>
                         S’équiper en matériels (un vidéoprojecteur, un écran de projection, paperboard…).</p><br><br>

@@ -38,6 +38,27 @@
                 <button class="btn btn-default filter-button" data-filter="pastP"> COMMISSION</button>
 
             </div> 
+
+            <div class="col-md-3">
+                <a href="https://drive.google.com/drive/folders/1Pc8IGMHrDSPvzydwIOBFFarZspSMNjcA">
+                    <i class="fa fa-folder" aria-hidden="true">Actions Communautaires et Entreprenariales</i>
+                </a>
+            </div>    
+            <div class="col-md-3">
+                <a href="https://drive.google.com/drive/folders/147Fh0yb9l20ciUcEky_nEsdmn0TOEWF3">
+                    <i class="fa fa-folder" aria-hidden="true">Cultures Loisirs et Anglais</i>
+                </a>
+            </div>
+            <div class="col-md-3">    
+                <a href="https://drive.google.com/drive/folders/1rRl6Pkl0Gb7jibySUzmKnm5J9iZ0BXE_">
+                    <i class="fa fa-folder" aria-hidden="true">Formations et Developpement</i>
+                </a>
+            </div>
+            <div class="col-md-3">    
+                <a href="https://drive.google.com/drive/folders/1YHHHgHdtBrSIk3K_YcIlNH3iIMtB-Z3C">
+                    <i class="fa fa-folder" aria-hidden="true">Archives</i>
+                </a>
+            </div>
         </div>
     </div>
 

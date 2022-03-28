@@ -168,8 +168,16 @@ class Accueil extends CI_Controller {
 
 	public function archive()
 	{
+		if($this->session->userdata('role_fk')==='1')
+		{
 
-		$this->load->view('commun/archives');
+			$this->load->view('commun/archives');
+		}
+		else
+		{
+			$this->session->sess_destroy();
+      redirect('Accueil');
+		}		
 	}
 
 	public function event()
@@ -180,12 +188,19 @@ class Accueil extends CI_Controller {
 
 	public function annuaire()
 	{
-			$data['listePP'] = $this->membre_model->liste_senateur();
-			$data['listeMembre'] = $this->membre_model->liste_membre();
-			$data['listePresse'] = $this->membre_model->liste_presse();
-
-            
-      $this->load->view('commun/annuaire',$data);
+		if($this->session->userdata('role_fk')==='1')
+		{
+				$data['listePP'] = $this->membre_model->liste_senateur();
+				$data['listeMembre'] = $this->membre_model->liste_membre();
+				$data['listePresse'] = $this->membre_model->liste_presse();     
+	      $this->load->view('commun/annuaire',$data);
+		}
+		else
+		{
+			$this->session->sess_destroy();
+      redirect('Accueil');
+		}
+			
 	}
 
 	public function propos()
@@ -334,7 +349,7 @@ class Accueil extends CI_Controller {
 	{
       $this->session->sess_destroy();
       redirect('Accueil');
-  	}	
+  }	
 
 }
 ?>

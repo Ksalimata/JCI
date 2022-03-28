@@ -36,11 +36,13 @@
             </div>
         </div>
     </div>
-    <section>
+    <section class="our-blog" style="background-color: #edf1f5;">
         <div class="container">
-            <div class="row"> 
+            <div class="row blog-row"> 
+
                    <h1> I.  PRESENTATION DE LA COMMISION ACE 2022 </h1>
                         <p> Pour la mandature 2022, notre commission est composée de :</p>
+
                         <table class="table table-bordered table-striped table_id">
                             <thead>    
                                 <tr>
@@ -82,31 +84,32 @@
 
                       <h4> a.   Fonctionnement de commission</h4><br>   
 
-<P>Pour le mandat 2022, nous avons instauré des rubriques innovantes en vue d’un impact remarquable de nos communautés respectives. Il s’agit de :</P><br>  
-   <p>-INSPIRATION TIME ;</p><br>  
-   <p>-ENTREPRENEURSHIP : (Jeune Preneur / Ivoire-Entrepreneur)</p><br>    
 
-<p>Remarques : toutes ces rubriques seront animées au cours de nos différentes réunions. Lesquelles sont organisées tous les lundis en quinze à partir de 18h30 minutes avec une durée d’une heure trente minutes (1h30min.) maximum.</p>
+                <P>Pour le mandat 2022, nous avons instauré des rubriques innovantes en vue d’un impact remarquable de nos communautés respectives. Il s’agit de :</P><br>  
+                <ul>
+                  <li><a href="">INSPIRATION TIME ;</a></li>
+                  <li><a href="">ENTREPRENEURSHIP : (Jeune Preneur / Ivoire-Entrepreneur)</a></li>
+                </ul>
+                <br><br>
 
-<h4>b.Rubriques</h4><br>    
+                <p>Remarques : toutes ces rubriques seront animées au cours de nos différentes réunions. Lesquelles sont organisées tous les lundis en quinze à partir de 18h30 minutes avec une durée d’une heure trente minutes (1h30min.) maximum.</p>
 
-<p>La commission Actions Communautaires et Entrepreneuriales, sur la base de sa dénomination sociale et de son cahier de charges, entend organiser des réunions avec des rubriques qui répondront à ses deux grands axes d’intervention. Les rubriques et actions proposées sont les suivantes :</p><br>    
+                <h4>b.  Rubriques</h4><br>    
 
-<p>   INSPIRATION TIME :</p><br>   
-<p>Cette rubrique se veut être une réponse au besoin de développement des aptitudes de leaders aux membres, membres potentiels. En effet, la rubrique <bold>‘’INSPIRATION TIME’’</bold> sera l’occasion pour « des cadres d’entreprise, des associations et groupements de jeunes, un acteur de développement communautaire » à aux réunions de commission pour inspirer les participants sur plusieurs sujets ou opportunités à travers des échanges avec d’autres organisations, entreprises et autres programmes spécialisés. En plus des invitations, il conviendra pour la commission d'organiser des sorties en entreprise (institutions, industries, …) en vue d'accentuer ou impulser la prise d'initiative du membre potentiels et membre actif.</p><br>   
+                <p>La commission Actions Communautaires et Entrepreneuriales, sur la base de sa dénomination sociale et de son cahier de charges, entend organiser des réunions avec des rubriques qui répondront à ses deux grands axes d’intervention. Les rubriques et actions proposées sont les suivantes :</p><br>    
 
-<p>   ENTREPRENEURSHIP :</p><br>    
-<p>Cette rubrique sera l’occasion pour les membres et membres potentiels de notre OLM de présenter des opportunités ou leurs produits au cours de nos réunions de commissions et des rencontres entre Jaycees. </p><br> 
+                <h5>   INSPIRATION TIME :</h5><br>   
+                <p>Cette rubrique se veut être une réponse au besoin de développement des aptitudes de leaders aux membres, membres potentiels. En effet, la rubrique <bold>‘’INSPIRATION TIME’’</bold> sera l’occasion pour « des cadres d’entreprise, des associations et groupements de jeunes, un acteur de développement communautaire » à aux réunions de commission pour inspirer les participants sur plusieurs sujets ou opportunités à travers des échanges avec d’autres organisations, entreprises et autres programmes spécialisés. En plus des invitations, il conviendra pour la commission d'organiser des sorties en entreprise (institutions, industries, …) en vue d'accentuer ou impulser la prise d'initiative du membre potentiels et membre actif.</p><br>   
 
-<bold>NB :</bold> Tous les responsables et membres de la Commission Actions Communautaires et Entrepreneuriales devront veiller au « respect scrupuleux » des consignes protocolaires de l’OLM Abidjan Ivoire (Dress Code, Port de Pin’s, Heure de démarrage et de fin des réunions, …etc.) lors des activités<br>  
+                <h5>   ENTREPRENEURSHIP :</h5><br>    
+                <p>Cette rubrique sera l’occasion pour les membres et membres potentiels de notre OLM de présenter des opportunités ou leurs produits au cours de nos réunions de commissions et des rencontres entre Jaycees. </p><br> 
 
-<p>Nous sommes engagés et prêt à affronter le terrain, dans la mesure de nos moyens, afin d’atteindre les objectifs du mandat.
-C’est pourquoi, nous disons tous d’une même et unique voix : <bold>« Let’s Be Impactful »</bold>
-Tel est le programme d’activités 2022 de la Commission Actions Communautaires et Entrepreneuriales (CACE) que nous vous soumettons pour adoption.</p>
+                <bold>NB :</bold> <p>Tous les responsables et membres de la Commission Actions Communautaires et Entrepreneuriales devront veiller au « respect scrupuleux » des consignes protocolaires de l’OLM Abidjan Ivoire (Dress Code, Port de Pin’s, Heure de démarrage et de fin des réunions, …etc.) lors des activités</p><br>  
 
+                <p>Nous sommes engagés et prêt à affronter le terrain, dans la mesure de nos moyens, afin d’atteindre les objectifs du mandat.
+                C’est pourquoi, nous disons tous d’une même et unique voix : <bold>« Let’s Be Impactful »</bold>
+                Tel est le programme d’activités 2022 de la Commission Actions Communautaires et Entrepreneuriales (CACE) que nous vous soumettons pour adoption.</p>
 
-
-  
             </div>   
         </div>   
     </section>
