@@ -31,8 +31,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-             <div class="gallery-filter d-none d-sm-block">
+        <div class="row" style="margin-bottom: 5%;">
+            <div class="gallery-filter d-none d-sm-block" style="margin-top: 5%">
                 <button class="btn btn-default filter-button active" data-filter="membre">C.E.L.</button>
                 <button class="btn btn-default filter-button" data-filter="presse"> C.D.L.</button>
                 <button class="btn btn-default filter-button" data-filter="pastP"> COMMISSION</button>
@@ -62,7 +62,6 @@
         </div>
     </div>
 
-	<h1>Archives</h1>
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
 </body>

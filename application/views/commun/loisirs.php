@@ -19,6 +19,9 @@
             background-color: #359dda;
             color: #FFF;
         }
+        p{
+            text-align: justify;
+        }
     </style>
 </head>
 
@@ -39,10 +42,10 @@
     <section>
             <div class="container">  
                 <div class="row">  
-                       <h1> I.  Présentation de la commission </h1>
-                <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p>
+                       <h1> I.  Présentation de la commission </h1><br> 
+                <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p><br>   <br>    
 
-                        <table class="table table-bordered table-striped table_id">
+                        <table class="table table-bordered table-striped">
                             <thead>    
                                 <tr>
                                     <th>Fonction</th>
@@ -73,10 +76,11 @@
                                     </tr>
                             </tbody>
                         </table> 
-                <h2>II. Rappel du cahier de charge de la Commission</h2>
-                <p>La commission culture Loisirs et Anglais est chargée du développement culturel et de la promotion de la langue anglaise auprès des membres de l’OLM.</p><br> 
+                        <br>    <br>    
+                <h2>II. Rappel du cahier de charge de la Commission</h2><br>    
+                <p>La commission culture Loisirs et Anglais est chargée du développement culturel et de la promotion de la langue anglaise auprès des membres de l’OLM.</p><br> <br>    
                 <p> Le volet Cultures</p><br> 
-                <p>L’objectif de cet axe sera non seulement de créer un cadre de partage d’expérience de culture générale, mais aussi de promouvoir la culture ivoirienne en allant à la rencontre de celle des peuples du monde entier en général, de l’Afrique en particulier et plus spécifiquement de celle des communautés de la CEDEAO.</p><br>   
+                <p>L’objectif de cet axe sera non seulement de créer un cadre de partage d’expérience de culture générale, mais aussi de promouvoir la culture ivoirienne en allant à la rencontre de celle des peuples du monde entier en général, de l’Afrique en particulier et plus spécifiquement de celle des communautés de la CEDEAO.</p><br> <br>    
 
                 <p>Les objectifs spécifiques de ces réunions seront de :</p><br>   
 
@@ -86,16 +90,16 @@
                   <li><a href="">Promouvoir la culture ivoirienne ;</a></li>
                   <li><a href="">Contribuer à l’intégration des autres peuples en Côte d’Ivoire.</a></li>
                 </ul> 
-
+                    <br>    <br>    
                  <ul><li>Le volet Loisirs</li></ul>   <br>   
-            <p>Dans cet axe, il sera question d’échanger avec les créateurs d’œuvre d’art et de l’esprit, spécialistes et manager d’entreprises pourvoyeuses de loisirs et de divertissements. Les domaines pressentis sont les suivants : cinéma/théâtre, spectacle/concert, sport, high-tech, jeux vidéo, tourisme, danse/musique/chant, lecture/écriture de roman, artisans manuels, actions humanitaires, radio/télévision, cuisine/pâtisserie, mannequinat, musée, photographie, peinture, etc.</p>
+            <p>Dans cet axe, il sera question d’échanger avec les créateurs d’œuvre d’art et de l’esprit, spécialistes et manager d’entreprises pourvoyeuses de loisirs et de divertissements. Les domaines pressentis sont les suivants : cinéma/théâtre, spectacle/concert, sport, high-tech, jeux vidéo, tourisme, danse/musique/chant, lecture/écriture de roman, artisans manuels, actions humanitaires, radio/télévision, cuisine/pâtisserie, mannequinat, musée, photographie, peinture, etc.</p><br>    <br>    
 
             <p>Les objectifs spécifiques de ces réunions sont :</p> <br>
             <ul>
                   <li><a href="">Promouvoir l’image de la JCI Abidjan Ivoire ;</a></li>
                   <li><a href="">Promouvoir les loisirs proposés au sein de la JCI Abidjan Ivoire ;</a></li>
             </ul>     
-
+                <br>    <br>    
             <ul><li>Le volet anglais</li></ul> <br>   
             <p>Ce volet s’attellera à redonner le goût de la langue anglaise à nos membres et membres potentiels, à renforcer leur capacité, en les amenant à prendre conscience de la nécessité de cette langue dans nos projets actuels et futures.</p> <br>  
 

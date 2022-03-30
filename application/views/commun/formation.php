@@ -19,6 +19,9 @@
             background-color: #359dda;
             color: #FFF;
         }
+        p{
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +41,7 @@
     <section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row">
-                    <h1>I.  PRESENTATION DE LA COMMISSION</h1> 
+                    <h1>I.  PRESENTATION DE LA COMMISSION</h1> <br> <br>    
 
                         <p>La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p> <br>
 
@@ -49,9 +52,9 @@
                           <li><a href="">Académie des Membres Potentiels.</a></li>
                         </ul>
                        
-                       <p> Pour cette mandature, cette commission est structurée comme suit :</p><br>
+                       <p> Pour cette mandature, cette commission est structurée comme suit :</p><br><br>   
 
-                       <table class="table table-bordered table-striped table_id">
+                       <table class="table table-bordered table-striped">
                             <thead>    
                                 <tr>
                                     <th>Fonction</th>
@@ -82,18 +85,21 @@
                                     </tr>
                             </tbody>
                        </table> 
+                            
+                    <h1> II.  Cahier de charges de la commission </h1>
+                    <br>  <br>  
 
-                    <h2> II.  Cahier de charges de la commission </h2>
-
-                       <ul><li>Objectifs généraux</li></ul>
+                        
+                            <p>Objectifs généraux</p>
+                        <br> 
                         <p>Etudier la faisabilité de chaque projet en relation avec le Vice – président aux opérations, et le réaliser suivant le cadre JCI du citoyen actif (enquête, analyse, planification, action, évaluation et suivi) ;
-                        Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p><br>
+                        Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p><br><br><br>      
 
-                      <ul><li>Objectifs spécifiques</li></ul> <br>
+                      <p>Objectifs spécifiques</p> <br>
 
-                        <p> Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;<br>
-                        Contribuer à la mise en œuvre de la stratégie de croissance quantitative et qualitative durable de l’effectif de l’organisation ;<br>
-                        Développer et renforcer chez les membres des aptitudes en leadership ;<br>
+                        <p> Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;</p><br>
+                        <p>Contribuer à la mise en œuvre de la stratégie de croissance quantitative et qualitative durable de l’effectif de l’organisation ;</p><br>
+                        <p>Développer et renforcer chez les membres des aptitudes en leadership ;<br>
                         S’équiper en matériels (un vidéoprojecteur, un écran de projection, paperboard…).</p><br><br>
 
                      <p>Le savoir étant l’unique bien dont personne ne peut nous dépouiller, nous invitons tous les membres et membres potentiels à participer activement à la mise en œuvre de ce programme afin qu’il connaisse un succès. Car notre motivation et notre engagement feront de ce programme une réussite.
