@@ -29,4 +29,8 @@ class Propos extends CI_Controller {
 	{
 		$this->load->view('commun/devMembre');
 	}
+	public function jciIvoire()
+	{
+		$this->load->view('commun/jciIvoire');
+	}
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php $this->load->view('tlp/css_file'); ?>
+    <link href="<?=base_url(); ?>assets/css/style12.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         body{
            font-family: "Opificio" !important;
@@ -25,6 +26,7 @@
     </style>
 </head>
 
+
 <body>
 	<?php $this->load->view('tlp/header'); ?>
 	<!--  ************************* Page Title Starts Here ************************** -->
@@ -42,10 +44,10 @@
     <section>
             <div class="container">  
                 <div class="row">  
-                       <h1> I.  Présentation de la commission </h1><br> 
-                <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p><br>   <br>    
+                       <h2 style="margin-top:2%"> I.  Présentation de la commission </h2><br> 
+                <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p> 
 
-                        <table class="table table-bordered table-striped">
+                        <table class="table table-bordered table-striped" style="margin-top:2%">
                             <thead>    
                                 <tr>
                                     <th>Fonction</th>
@@ -76,31 +78,31 @@
                                     </tr>
                             </tbody>
                         </table> 
-                        <br>    <br>    
-                <h2>II. Rappel du cahier de charge de la Commission</h2><br>    
+                           
+                <h2 style="margin-top:2%">II. Rappel du cahier de charge de la Commission</h2><br>    
                 <p>La commission culture Loisirs et Anglais est chargée du développement culturel et de la promotion de la langue anglaise auprès des membres de l’OLM.</p><br> <br>    
-                <p> Le volet Cultures</p><br> 
+                <p style="margin-top:2%"> Le volet Cultures</p><br> 
                 <p>L’objectif de cet axe sera non seulement de créer un cadre de partage d’expérience de culture générale, mais aussi de promouvoir la culture ivoirienne en allant à la rencontre de celle des peuples du monde entier en général, de l’Afrique en particulier et plus spécifiquement de celle des communautés de la CEDEAO.</p><br> <br>    
 
-                <p>Les objectifs spécifiques de ces réunions seront de :</p><br>   
+                <p style="margin-top:2%;font-weight: bold;">Les objectifs spécifiques de ces réunions seront de :</p><br>   
 
                 <ul>
-                  <li><a href="">Partager et renforcer les capacités des membres en termes de culture générale  ;</a></li>
-                  <li><a href="">Promouvoir l’image de la JCI Abidjan Ivoire ;</a></li>
-                  <li><a href="">Promouvoir la culture ivoirienne ;</a></li>
-                  <li><a href="">Contribuer à l’intégration des autres peuples en Côte d’Ivoire.</a></li>
+                  <li>Partager et renforcer les capacités des membres en termes de culture générale  ;</li>
+                  <li>Promouvoir l’image de la JCI Abidjan Ivoire ;</li>
+                  <li>Promouvoir la culture ivoirienne ;</li>
+                  <li>Contribuer à l’intégration des autres peuples en Côte d’Ivoire.</li>
                 </ul> 
-                    <br>    <br>    
-                 <ul><li>Le volet Loisirs</li></ul>   <br>   
+                     
+                 <p style="margin-top:2%;font-weight: bold;">Le volet Loisirs</p>   <br>   
             <p>Dans cet axe, il sera question d’échanger avec les créateurs d’œuvre d’art et de l’esprit, spécialistes et manager d’entreprises pourvoyeuses de loisirs et de divertissements. Les domaines pressentis sont les suivants : cinéma/théâtre, spectacle/concert, sport, high-tech, jeux vidéo, tourisme, danse/musique/chant, lecture/écriture de roman, artisans manuels, actions humanitaires, radio/télévision, cuisine/pâtisserie, mannequinat, musée, photographie, peinture, etc.</p><br>    <br>    
 
-            <p>Les objectifs spécifiques de ces réunions sont :</p> <br>
+            <p style="margin-top:2%;font-weight: bold;">Les objectifs spécifiques de ces réunions sont :</p> <br>
             <ul>
-                  <li><a href="">Promouvoir l’image de la JCI Abidjan Ivoire ;</a></li>
-                  <li><a href="">Promouvoir les loisirs proposés au sein de la JCI Abidjan Ivoire ;</a></li>
+                  <li>Promouvoir l’image de la JCI Abidjan Ivoire ;</li>
+                  <li>Promouvoir les loisirs proposés au sein de la JCI Abidjan Ivoire ;</li>
             </ul>     
-                <br>    <br>    
-            <ul><li>Le volet anglais</li></ul> <br>   
+                    
+            <p style="margin-top:2%;font-weight: bold;">Le volet anglais</p> <br>   
             <p>Ce volet s’attellera à redonner le goût de la langue anglaise à nos membres et membres potentiels, à renforcer leur capacité, en les amenant à prendre conscience de la nécessité de cette langue dans nos projets actuels et futures.</p> <br>  
 
         
@@ -108,7 +110,7 @@
                 </div>
             </div>   
     </section>
-	<section class="our-blog" style="background-color: #edf1f5;">
+	<section class="our-blog">
             <div class="container">
                 <div class="row session-title">
                     <!-- <p>Take a look at what people say about US </p> -->
@@ -156,7 +158,7 @@
                 </div>
             </div>
     </section>
-    <section class="our-blog" style="background-color: #edf1f5">
+    <section class="our-blog">
             <div class="row">
                 
                 <div class="blog-row row" style="">
@@ -208,11 +210,30 @@
                             </figure>
                             
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
-                                <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
+                                <div id="slider">
+                                    <ul>
+                                        <li>
+                                        <div class="slider-container" style="background-image: url(https://unsplash.it/500/300/);">
+                                        
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/301/);">
+                                           
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/302/);">
+                                           
+                                        </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </figure>
                             <div class="blog-detail">
                                 
@@ -311,5 +332,8 @@
 
     
 	<?php $this->load->view('tlp/js_file'); ?>
+
+
+    <link href="<?=base_url(); ?>assets/js/style12.js" rel="stylesheet" type="text/css" />
 </body>
 </html>

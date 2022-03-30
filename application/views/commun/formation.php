@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php $this->load->view('tlp/css_file'); ?>
+    <link href="<?=base_url(); ?>assets/css/style12.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         body{
            font-family: "Opificio" !important;
@@ -41,20 +42,20 @@
     <section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row">
-                    <h1>I.  PRESENTATION DE LA COMMISSION</h1> <br> <br>    
+                    <h2 style="margin-top:2%">I.  PRESENTATION DE LA COMMISSION</h2>  
 
-                        <p>La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p> <br>
+                        <p style="margin-top:2%">La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p> <br>
 
                         <ul>
-                          <li><a href="">Formations internes dénommé IVOIRE TRAINING ;</a></li>
-                          <li><a href="">Formations publiques</a></li>
-                          <li><a href="">Séminaire (s) professionnel (s)</a></li>
-                          <li><a href="">Académie des Membres Potentiels.</a></li>
+                          <li>Formations internes dénommé IVOIRE TRAINING ;</li>
+                          <li>Formations publiques</li>
+                          <li>Séminaire (s) professionnel (s)</li>
+                          <li>Académie des Membres Potentiels.</li>
                         </ul>
                        
-                       <p> Pour cette mandature, cette commission est structurée comme suit :</p><br><br>   
-
-                       <table class="table table-bordered table-striped">
+                       <p style="margin-top:2%"> Pour cette mandature, cette commission est structurée comme suit :</p> 
+ 
+                       <table class="table table-bordered table-striped" style="margin-top:2%">
                             <thead>    
                                 <tr>
                                     <th>Fonction</th>
@@ -86,23 +87,23 @@
                             </tbody>
                        </table> 
                             
-                    <h1> II.  Cahier de charges de la commission </h1>
-                    <br>  <br>  
+                    <h2 style="margin-top:2%"> II.  Cahier de charges de la commission </h2>
+                    <br> 
 
                         
-                            <p>Objectifs généraux</p>
+                            <p style="font-weight: bold;">Objectifs généraux</p>
                         <br> 
                         <p>Etudier la faisabilité de chaque projet en relation avec le Vice – président aux opérations, et le réaliser suivant le cadre JCI du citoyen actif (enquête, analyse, planification, action, évaluation et suivi) ;
-                        Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p><br><br><br>      
+                        Faire le recrutement conformément au principe d’engagement et de responsabilité membres potentiels par commission de travail.</p>   
 
-                      <p>Objectifs spécifiques</p> <br>
+                      <p style="margin-top:2%;font-weight: bold;">Objectifs spécifiques</p> <br>
 
                         <p> Déployer le programme de formation (interne “ivoire training” et publique) à l’endroit des membres et membres potentiels ;</p><br>
                         <p>Contribuer à la mise en œuvre de la stratégie de croissance quantitative et qualitative durable de l’effectif de l’organisation ;</p><br>
                         <p>Développer et renforcer chez les membres des aptitudes en leadership ;<br>
                         S’équiper en matériels (un vidéoprojecteur, un écran de projection, paperboard…).</p><br><br>
 
-                     <p>Le savoir étant l’unique bien dont personne ne peut nous dépouiller, nous invitons tous les membres et membres potentiels à participer activement à la mise en œuvre de ce programme afin qu’il connaisse un succès. Car notre motivation et notre engagement feront de ce programme une réussite.
+                     <p style="margin-top:2%">Le savoir étant l’unique bien dont personne ne peut nous dépouiller, nous invitons tous les membres et membres potentiels à participer activement à la mise en œuvre de ce programme afin qu’il connaisse un succès. Car notre motivation et notre engagement feront de ce programme une réussite.
                         Ainsi, quel que soit la position que l’on occupe ou le rôle que l’on joue au sein de notre organisation, il importe que l’on garde à l’esprit que seule l’action transforme la pensée et la parole en réalité. C'est en nous unissons que nous ferons des exploits.
                         Pour notre part, nous vous promettons d’accomplir avec dynamisme et abnégation la mission qui nous a été assignée pour cette mandature 2022.
                         </p>   
@@ -292,7 +293,25 @@
                     <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
-                                <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
+                                <div id="slider">
+                                    <ul>
+                                        <li>
+                                        <div class="slider-container" style="background-image: url(https://unsplash.it/500/300/);">
+                                        
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/301/);">
+                                           
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/302/);">
+                                           
+                                        </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </figure>
                             <div class="blog-detail">
                                 

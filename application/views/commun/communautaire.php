@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php $this->load->view('tlp/css_file'); ?>
+    <link href="<?=base_url(); ?>assets/css/style12.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         body{
            font-family: "Opificio" !important;
@@ -43,7 +44,7 @@
         <div class="container">
             <div class="row blog-row"> 
 
-                   <h1> I.  PRESENTATION DE LA COMMISION ACE 2022 </h1><br> 
+                   <h2> I.  PRESENTATION DE LA COMMISION ACE 2022 </h2><br> 
                         <p> Pour la mandature 2022, notre commission est composée de :</p><br>  <br>    
 
                         <table class="table table-bordered table-striped">
@@ -83,31 +84,31 @@
 
                                     </tr>
                             </tbody>
-                       </table>
+                        </table>
                         <br>    <br>    
-                      <h4> a.   Fonctionnement de commission</h4><br><br>      
+                      <h4 style="margin-top:2%;font-weight: bold;"> a.   Fonctionnement de commission</h4><br><br>      
 
 
                 <P>Pour le mandat 2022, nous avons instauré des rubriques innovantes en vue d’un impact remarquable de nos communautés respectives. Il s’agit de :</P><br> <br>  
                 <ul>
-                  <li><a href="">INSPIRATION TIME ;</a></li>
-                  <li><a href="">ENTREPRENEURSHIP : (Jeune Preneur / Ivoire-Entrepreneur)</a></li>
+                  <li>INSPIRATION TIME ;</li>
+                  <li>NTREPRENEURSHIP : (Jeune Preneur / Ivoire-Entrepreneur)</li>
                 </ul>
                 <br><br>
 
                 <p>Remarques : toutes ces rubriques seront animées au cours de nos différentes réunions. Lesquelles sont organisées tous les lundis en quinze à partir de 18h30 minutes avec une durée d’une heure trente minutes (1h30min.) maximum.</p><br>   <br> <br>      
 
-                <h4>b.  Rubriques</h4><br>    
+                <h4 style="margin-top:2%;font-weight: bold;">b.  Rubriques</h4><br>    
 
                 <p>La commission Actions Communautaires et Entrepreneuriales, sur la base de sa dénomination sociale et de son cahier de charges, entend organiser des réunions avec des rubriques qui répondront à ses deux grands axes d’intervention. Les rubriques et actions proposées sont les suivantes :</p><br> <br>      
 
-                <h5>   INSPIRATION TIME :</h5><br>   
+                <h5 style="margin-top:2%;font-weight: bold;">   INSPIRATION TIME :</h5><br>   
                 <p>Cette rubrique se veut être une réponse au besoin de développement des aptitudes de leaders aux membres, membres potentiels. En effet, la rubrique <bold>‘’INSPIRATION TIME’’</bold> sera l’occasion pour « des cadres d’entreprise, des associations et groupements de jeunes, un acteur de développement communautaire » à aux réunions de commission pour inspirer les participants sur plusieurs sujets ou opportunités à travers des échanges avec d’autres organisations, entreprises et autres programmes spécialisés. En plus des invitations, il conviendra pour la commission d'organiser des sorties en entreprise (institutions, industries, …) en vue d'accentuer ou impulser la prise d'initiative du membre potentiels et membre actif.</p><br>  <br>  
 
-                <h5>   ENTREPRENEURSHIP :</h5><br>    
+                <h5 style="margin-top:2%;font-weight: bold;">   ENTREPRENEURSHIP :</h5><br>    
                 <p>Cette rubrique sera l’occasion pour les membres et membres potentiels de notre OLM de présenter des opportunités ou leurs produits au cours de nos réunions de commissions et des rencontres entre Jaycees. </p><br><br>  
 
-                <bold>NB :</bold> <p>Tous les responsables et membres de la Commission Actions Communautaires et Entrepreneuriales devront veiller au « respect scrupuleux » des consignes protocolaires de l’OLM Abidjan Ivoire (Dress Code, Port de Pin’s, Heure de démarrage et de fin des réunions, …etc.) lors des activités</p><br>  <br> 
+                <bold style="font-weight:bold;margin-top:2%">NB :</bold> <p>Tous les responsables et membres de la Commission Actions Communautaires et Entrepreneuriales devront veiller au « respect scrupuleux » des consignes protocolaires de l’OLM Abidjan Ivoire (Dress Code, Port de Pin’s, Heure de démarrage et de fin des réunions, …etc.) lors des activités</p><br>  <br> 
 
                 <p>Nous sommes engagés et prêt à affronter le terrain, dans la mesure de nos moyens, afin d’atteindre les objectifs du mandat.
                 C’est pourquoi, nous disons tous d’une même et unique voix : <bold>« Let’s Be Impactful »</bold>
@@ -229,7 +230,25 @@
                     <div class="col-md-4">
                         <div class="single-blog">
                             <figure>
-                                <img src="<?=base_url(); ?>assets/images/forma.jfif" alt="" style="height: 241px;width: 100%;">
+                                <div id="slider">
+                                    <ul>
+                                        <li>
+                                        <div class="slider-container" style="background-image: url(https://unsplash.it/500/300/);">
+                                        
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/301/);">
+                                           
+                                        </div>
+                                        </li>
+                                            <li>
+                                            <div class="slider-container" style="background-image: url(https://unsplash.it/500/302/);">
+                                           
+                                        </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </figure>
                             <div class="blog-detail">
                                 

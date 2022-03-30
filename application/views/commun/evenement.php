@@ -21,7 +21,7 @@
 
     <!--  ************************* Page Title Starts Here ************************** -->
     
-    <div class="page-nav no-margin row" style="background-image: url('<?=base_url(); ?>assets/images/slide3.jpeg');height: 400px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);background-blend-mode: darken;">
+    <div class="page-nav no-margin row" style="background-image: url('<?=base_url(); ?>assets/images/3.jpeg');height: 400px;width: 100%;background-size: cover; background-position: center center;transform: translate3d(0px, 0px, 0px);background-blend-mode: darken;">
         <div class="container" >
             <div class="row">
                 <h2>Evenement</h2>
@@ -70,31 +70,31 @@
 
                     
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter action">
-                            <img src="<?=base_url(); ?>assets/images/events/image_05.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/1.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter action">
-                            <img src="<?=base_url(); ?>assets/images/events/image_06.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/6.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter formation">
-                            <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/5.jpeg" class="img-responsive">
                         </div>
 
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter action">
-                            <img src="<?=base_url(); ?>assets/images/events/image_05.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/4.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter loisir">
-                            <img src="<?=base_url(); ?>assets/images/events/image_06.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/3.jpeg" class="img-responsive">
                         </div>
 
                         <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter loisir">
-                            <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/2.jpeg" class="img-responsive">
                         </div>
                         <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter loisir">
-                            <img src="<?=base_url(); ?>assets/images/events/image_07.jpg" class="img-responsive">
+                            <img src="<?=base_url(); ?>assets/images/1.jpeg" class="img-responsive">
                         </div>
             
                 </div>

@@ -31,29 +31,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 d-none d-md-block btn-bhed" >
-                    
-
                 
+                <div class="col-md-6 d-none d-md-block btn-bhed">
                     <?php echo $this->session->flashdata('msg');?>
                     <?php if (($this->session->userdata('nom'))==NULL):?>
                     <button class="btn btn-sm btn-primary coo" id="conect"  onclick="nextPrev()" style="border: 1px solid #f9c800;background-color: #f9c800;margin-left:50%;">Connectez-vous !
                     </button>
                     <?php endif;?>
                     <?php if($this->session->userdata('nom')):?>
-                        <p style="margin-left: 39%;"><?php echo("Bienvenu ". $this->session->userdata('nom')." ".$this->session->userdata('prenom')); ?></p>
+                        <p><?php echo("Bienvenu ". $this->session->userdata('nom')." ".$this->session->userdata('prenom')); ?></p>
                     <?php endif;?> 
-                   
-                        <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
-                            <input type="text"  name="email" id="mail" placeholder="email"  class="cobtn" required>
-                            <input type="password"  name="password" id="pass" placeholder="password" class="cobtn" required>
-                            <input type="submit" value="Se Connecter" style="float: right;">
-                        </form>
-                    <!-- <button class="btn btn-sm btn-default">Donate</button> -->
-                    
-                </div>
-               
-                <div class="col-md-3 d-none d-md-block btn-bhed">
+
+
                     <?php if (($this->session->userdata('nom'))==NULL):?>
                     <button class="btn btn-sm btn-primary coo" id="inscrip" style="border: 1px solid #f9c800;background-color: #f9c800;"> 
                         <a href="<?php echo site_url('Accueil/contact');?>">Inscription </a>
@@ -62,7 +51,13 @@
                     <?php if($this->session->userdata('nom')):?>
                         <a class="btn btn-sm btn-primary coo" href="<?php echo site_url('Accueil/logout');?>" style="border: 1px solid #f9c800;background-color: #f9c800;">Deconnexion</a>
                         
-                    <?php endif;?> 
+                    <?php endif;?>
+
+                    <form action="<?php echo site_url('Accueil/login');?>" method="POST" id=connect style="display:none;">
+                        <input type="text"  name="email" id="mail" placeholder="email"   required>
+                        <input type="password"  name="password" id="pass" placeholder="password" style="width: 29%;" required>
+                        <input type="submit" class="btn btn-info" value="Se Connecter" style="float: right;background-color: #3597dc;">
+                    </form>
                 </div>    
             </div>
         </div>
@@ -117,7 +112,7 @@
                                       <div class="dropdown-content">
                                         <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/jci');?>">Jeune Chambre Internationale</a>
                                         <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciCI');?>">Jeune Chambre Internationale Côte d'Ivoire</a>
-                                        <a style="border-radius: 2px;" href="#">Jeune Chambre Internationale Abidjan Ivoire</a>
+                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciIvoire');?>">Jeune Chambre Internationale Abidjan Ivoire</a>
                                         <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/organigrame');?>">Organigrammes</a>
                                         <a style="border-radius: 2px;" class="sous-menu" href="#">Membres du CDL</a>
                                         <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/aires');?>">Aires d'opportunités</a>

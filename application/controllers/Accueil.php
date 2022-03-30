@@ -232,6 +232,8 @@ class Accueil extends CI_Controller {
 
 	public function inscription()
    {
+
+   	//var_dump($_POST);exit();
         $this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('pname', 'Pname', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required');
@@ -270,8 +272,8 @@ class Accueil extends CI_Controller {
 									            'role' => $_POST['role'],
 									            'olm' => $_POST['olm'],
 									            'password' => md5($password),
-									            'date_create', date("Y-m-d H:i:s"),
-															'etat', "A"
+									            'date_create'=> date("Y-m-d H:i:s"),
+															'membre_etat'=> "A"
 									        );
 
 								           $insert =$this->membre->insert_membre($data);
