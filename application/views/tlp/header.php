@@ -39,7 +39,7 @@
                     </button>
                     <?php endif;?>
                     <?php if($this->session->userdata('nom')):?>
-                        <p><?php echo("Bienvenu ". $this->session->userdata('nom')." ".$this->session->userdata('prenom')); ?></p>
+                        <p style="display:inline;"><?php echo("Bienvenu ". $this->session->userdata('nom')." ".$this->session->userdata('prenom')); ?></p>
                     <?php endif;?> 
 
 
