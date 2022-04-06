@@ -42,7 +42,7 @@
     <section class="our-blog" style="background-color: #edf1f5;">
             <div class="container">
                 <div class="row">
-                    <h2 style="margin-top:2%">I.  PRESENTATION DE LA COMMISSION</h2>  
+                    <h2 style="margin-top:2%"> PRESENTATION DE LA COMMISSION</h2>  
 
                         <p style="margin-top:2%">La Commission Formation et Développement est l’une des trois (3) commissions de travail de notre OLM. Sa fonction principale est de planifier et gérer de façon cohérente un programme d’activités s’articulant autour des activités suivantes : </p> <br>
 
@@ -87,7 +87,7 @@
                             </tbody>
                        </table> 
                             
-                    <h2 style="margin-top:2%"> II.  Cahier de charges de la commission </h2>
+                    <h2 style="margin-top:2%">   Cahier de charges de la commission </h2>
                     <br> 
 
                         
@@ -138,7 +138,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('FD/projetx');?>">Projet</a></center>
+                                        <center><a href="<?php echo site_url('FD/projet');?>">Projet</a></center>
                                     </h4>
                                 
                             </div>

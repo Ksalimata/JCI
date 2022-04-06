@@ -30,7 +30,7 @@ class FD extends CI_Controller {
 
 	public function projet()
 	{
-		$this->load->view('commun/projetFDx');
+		$this->load->view('commun/projetFD');
 	}
 
 	public function archive()

@@ -1,6 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-   
+ 
     class Files extends CI_Controller {
         
         function __construct() {
@@ -21,7 +20,6 @@
             $this->load->view('commun/document', $data);
         }
         
-    
         public function insert()
         {
             //load session library to use flashdata
@@ -29,7 +27,6 @@
             //Check if file is not empty
             if(!empty($_FILES['upload']['name']))
             {
-
                 if (!file_exists('upload')) {
                     mkdir('upload', 0777, true);
                 }
@@ -40,10 +37,11 @@
                 //Load upload library and initialize configuration
                 $this->load->library('upload', $config);
                 $this->upload->initialize($config);
-                $path_to_directory = 'directory/';
+
+                /*$path_to_directory = 'directory/';
                 if (!file_exists($path_to_directory) && !is_dir($path_to_directory)) {
                     mkdir($path_to_directory, 0777, true);
-                }
+                }*/
 
                 if($this->upload->do_upload('upload'))
                 {
@@ -77,12 +75,11 @@
             }else
             {
                 //header('location:'.base_url().$this->index());
-                $this->session->set_flashdata('error','Cannot upload empty file.');
+                $this->session->set_flashdata('error','Fichier introuvable');
                 redirect('Files');
-
             }
         }
-
+        
         public function download($id)
         {
             if(!empty($id)){
@@ -98,14 +95,7 @@
                 //download file from directory
                 force_download($file, NULL);
             }
-        }
-        /*CREATE TABLE `files` (
-  `id` int(11) NOT NULL Primary Key Auto_Increment,
-  `filename` varchar(150) NOT NULL,
-  `description` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;*/
-        
-        
+        }     
 }
 
 ?>

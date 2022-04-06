@@ -161,7 +161,70 @@
                     </div>
                 </div>
             </div>
-    </section>                        
+    </section>     
+    <section>  
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Telecharger Image</h3>
+                    <form method="POST" action="<?php echo base_url(); ?>CACE/insert" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>Nom de l'image:</label>
+                            <input type="text" id="image_name" name="image_name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Image:</label>
+                            <input type="file" id="userfile" name="userfile" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enregistrer</button>
+                    </form>
+
+                    <!-- success message to display after uploading image -->
+                  <?php if ($this->session->flashdata('success')) {?>
+                      <div class="alert alert-success alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <?php echo $this->session->flashdata('success'); ?>
+                      </div>
+                  <?php  } ?> 
+                  <!-- validation message to display after form is submitted -->
+                     <?php echo validation_errors('<div class="alert alert-danger alert-dismissible" role="alert">
+                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                             <span aria-hidden="true">&times;</span></button>','</div>');
+                     ?>
+
+                </div>
+            </div>
+            <div class="row">
+                <?php if (count($images)): ?>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                          <tr>
+                            <th>ID Image</th>
+                            <th>Nom Image</th>
+                            <th>Image</th>    
+                          </tr>      
+                        </thead>
+                        <tbody>
+                        <!-- start of foreach loop to display images -->
+                          <?php foreach($images as $row):?>
+                          <tr>
+                            <td><?php echo $row->image_id ?></td>
+                            <td><?php echo $row->image_name ?></td>
+                            <td><center><img class="thumbnail" style="height: 100px; width: 100px;" src="<?php echo base_url() ?>assets/imagesCACE/<?php echo $row->image ?>"></center></td>
+                          </tr>
+                          <?php endforeach; ?> 
+                        <!-- end of foreach loop  -->
+                      </tbody>  
+                    </table>
+                <?php else: ?>
+                 <h4 style="color: red" class="text-center">No images in database</h4>
+                <?php endif ?>
+            </div>
+        </div> 
+        
+    </section>                   
 	<?php $this->load->view('tlp/footer'); ?>
 	<?php $this->load->view('tlp/js_file'); ?>
 </body>

@@ -44,7 +44,7 @@
     <section>
             <div class="container">  
                 <div class="row">  
-                       <h2 style="margin-top:2%"> I.  Présentation de la commission </h2><br> 
+                       <h2 style="margin-top:2%">  Présentation de la commission </h2><br> 
                 <p>Pour mener à bien les différentes missions qui nous sont assignées et atteindre nos objectifs, pour la mandature 2022, la commission Cultures, Loisirs et Anglais (CCLA) est composée comme suit :</p> 
 
                         <table class="table table-bordered table-striped" style="margin-top:2%">
@@ -79,7 +79,7 @@
                             </tbody>
                         </table> 
                            
-                <h2 style="margin-top:2%">II. Rappel du cahier de charge de la Commission</h2><br>    
+                <h2 style="margin-top:2%"> Rappel du cahier de charge de la Commission</h2><br>    
                 <p>La commission culture Loisirs et Anglais est chargée du développement culturel et de la promotion de la langue anglaise auprès des membres de l’OLM.</p><br> <br>    
                 <p style="margin-top:2%"> Le volet Cultures</p><br> 
                 <p>L’objectif de cet axe sera non seulement de créer un cadre de partage d’expérience de culture générale, mais aussi de promouvoir la culture ivoirienne en allant à la rencontre de celle des peuples du monde entier en général, de l’Afrique en particulier et plus spécifiquement de celle des communautés de la CEDEAO.</p><br> <br>    
@@ -136,7 +136,7 @@
                             <div class="blog-detail">
                                 
                                     <h4>
-                                        <center><a href="<?php echo site_url('Accueil/formation');?>">Projet</a></center>
+                                        <center><a href="<?php echo site_url('CL/projet');?>">Projet</a></center>
                                     </h4>
                                 
                             </div>

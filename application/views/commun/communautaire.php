@@ -44,7 +44,7 @@
         <div class="container">
             <div class="row blog-row"> 
 
-                   <h2> I.  PRESENTATION DE LA COMMISION ACE 2022 </h2><br> 
+                   <h2>   PRESENTATION DE LA COMMISION ACE 2022 </h2><br> 
                         <p> Pour la mandature 2022, notre commission est composée de :</p><br>  <br>    
 
                         <table class="table table-bordered table-striped">
@@ -86,7 +86,7 @@
                             </tbody>
                         </table>
                         <br>    <br>    
-                      <h4 style="margin-top:2%;font-weight: bold;"> a.   Fonctionnement de commission</h4><br><br>      
+                      <h4 style="margin-top:2%;font-weight: bold;">   Fonctionnement de commission</h4><br><br>      
 
 
                 <P>Pour le mandat 2022, nous avons instauré des rubriques innovantes en vue d’un impact remarquable de nos communautés respectives. Il s’agit de :</P><br> <br>  
@@ -98,7 +98,7 @@
 
                 <p>Remarques : toutes ces rubriques seront animées au cours de nos différentes réunions. Lesquelles sont organisées tous les lundis en quinze à partir de 18h30 minutes avec une durée d’une heure trente minutes (1h30min.) maximum.</p><br>   <br> <br>      
 
-                <h4 style="margin-top:2%;font-weight: bold;">b.  Rubriques</h4><br>    
+                <h4 style="margin-top:2%;font-weight: bold;">  Rubriques</h4><br>    
 
                 <p>La commission Actions Communautaires et Entrepreneuriales, sur la base de sa dénomination sociale et de son cahier de charges, entend organiser des réunions avec des rubriques qui répondront à ses deux grands axes d’intervention. Les rubriques et actions proposées sont les suivantes :</p><br> <br>      
 

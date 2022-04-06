@@ -1,10 +1,10 @@
 <header class="continer-fluid ">
-    <div  class="header-top">
+    <div  class="header-top" style="background-color:#3597dc;">
         <div class="container">
             <div class="row col-det">
                 <div class="col-md-3 d-none d-lg-block">
                     <ul class="ulleft">
-                        <li>
+                        <li style="color: white;font-weight: bold;">
                             <i class="far fa-envelope"></i>
                             jciabidjanivoire.sg@gmail.com
                             <span> </span> <i class="fas fa-phone-volume"></i>
@@ -75,6 +75,18 @@
                 <div id="menu" class="col-lg-10 col-md-12 d-none d-lg-block nav-col">
 
                             <ul class="navbad">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">A propos</a>
+                                      <div class="dropdown-content">
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/jci');?>">Jeune Chambre Internationale</a>
+                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciCI');?>">Jeune Chambre Internationale Côte d'Ivoire</a>
+                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciIvoire');?>">Jeune Chambre Internationale Abidjan Ivoire</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/organigrame');?>">Organigrammes</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="#">Membres du CDL</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/aires');?>">Aires d'opportunités</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/membre');?>">Devenir Membre</a>
+                                      </div>
+                                </li> 
                                 <li class="nav-item active">
                                     <a class="nav-link" href="<?php echo site_url('Accueil');?>">Accueil
                                     </a>
@@ -107,21 +119,15 @@
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="<?php //echo site_url('Accueil/propos');?>">A propos</a>
                                 </li> -->
+                                  
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">A propos</a>
+                                    <a class="nav-link" href="#">Document</a>
                                       <div class="dropdown-content">
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/jci');?>">Jeune Chambre Internationale</a>
-                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciCI');?>">Jeune Chambre Internationale Côte d'Ivoire</a>
-                                        <a style="border-radius: 2px;" href="<?php echo site_url('Propos/jciIvoire');?>">Jeune Chambre Internationale Abidjan Ivoire</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/organigrame');?>">Organigrammes</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="#">Membres du CDL</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/aires');?>">Aires d'opportunités</a>
-                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Propos/membre');?>">Devenir Membre</a>
+                                        <a style="border-radius: 2px;" class="sous-menu" href="<?php echo site_url('Files');?>">Document d'activité</a>
+                                        <a style="border-radius: 2px;" href="#">Document</a>
+                                        
                                       </div>
-                                </li>   
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('Files');?>">Document d'activité</a>
-                                </li>   
+                                </li>  
                             </ul>
 
                 </div>
